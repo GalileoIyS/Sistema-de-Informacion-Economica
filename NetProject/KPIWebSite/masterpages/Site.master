@@ -1,0 +1,503 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Big Data cataloge using shared indicators" />
+    <meta name="keywords" content="Big Data, Business Intelligence, KPI, Dashboards, Realtime analysis" />
+    <meta name="author" content="Nicolas Agustin Hernandez Guerra de Aguilar" />
+    <title>DropKeys</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/content/css/bootstrap.css" rel="stylesheet" />
+
+    <!-- SmartAdmin Styles : Please note (smartadmin-production.css) was created using LESS variables -->
+    <link rel="stylesheet" type="text/css" media="screen" href="/content/css/smartadmin-production.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/content/css/smartadmin-skins.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="/content/css/dropkeys.css" />
+    <link rel="stylesheet" type="text/css" href="/content/css/desktop.css" />
+    <link rel="stylesheet" type="text/css" href="/content/css/animations.css" />
+    <link rel="stylesheet" type="text/css" href="/content/css/jqpagination.css" />
+    <link rel="stylesheet" type="text/css" href="/content/css/jquery.tagsinput.css" />
+    <link rel="stylesheet" type="text/css" href="/content/css/jquery-ui-1.10.3.custom.css" />
+    <link rel="stylesheet" type="text/css" href="/content/css/jquery.handsontable.full.css" />
+
+    <!-- Custom Fonts -->
+    <link href="/content/css/font-awesome.css" rel="stylesheet" />
+
+    <!-- Google Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+
+    <!-- iOS web-app metas : hides Safari UI Components and Changes Status Bar Appearance -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+    <!-- FavIcon de Dropkeys -->
+    <link runat="server" rel="shortcut icon" href="~/favicon.ico" type="image/x-icon" />
+    <link runat="server" rel="icon" href="~/favicon.ico" type="image/x-icon" />
+
+    <asp:ContentPlaceHolder ID="HeadPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body id="page-top" class="index fixed-header smart-style-1">
+    <!-- Codigo inicializador del Facebook JDK-->
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                appId: '377608999072467',
+                xfbml: true,
+                version: 'v2.2'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) { return; }
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- Fin del codigo inicializador del Facebook JDK-->
+    <form id="MainForm" runat="server">
+        <asp:ScriptManager ID="MainScriptManager" EnablePageMethods="true" runat="server">
+        </asp:ScriptManager>
+
+        <!-- Navigation content -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <asp:HyperLink ID="lnkDropKeysHome" runat="server" NavigateUrl="~/Default.aspx" CssClass="navbar-brand"><img src="../images/logo.fw.png" alt="www.dropkeys.com"/>dropkeys</asp:HyperLink>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right margin-top-md">
+                        <asp:LoginView ID="LoginViewKPIBoard" runat="server">
+                            <AnonymousTemplate>
+                                <li class="hidden">
+                                    <a href="#page-top"></a>
+                                </li>
+                                <li class="page-scroll">
+                                    <asp:HyperLink runat="server" NavigateUrl="~/howitworks.aspx" elem="howitworks">How it works</asp:HyperLink>
+                                </li>
+                                <li class="page-scroll">
+                                    <asp:HyperLink runat="server" NavigateUrl="~/search.aspx" elem="buscador">Datasets</asp:HyperLink>
+                                </li>
+                                <li class="page-scroll">
+                                    <a href="#" class="login-trigger" data-toggle="modal" data-target="#myModal">Log In</a>
+                                </li>
+                            </AnonymousTemplate>
+                            <LoggedInTemplate>
+                                <li class="page-scroll">
+                                    <div id="logo-group">
+                                        <span class="activity activity-dropdown"><i class="fa fa-user"></i><b class="activity-count badge">0</b></span>
+                                        <!-- AJAX-DROPDOWN : control this dropdown height, look and feel from the LESS variable file -->
+                                        <div class="ajax-dropdown">
+                                            <!-- the ID links are fetched via AJAX to the ajax container "ajax-notifications" -->
+                                            <div class="btn-group btn-group-justified">
+                                                <a href="#" class="btnViewFriends btn btn-default">Friends <span class="badge bg-color-blueLight txt-color-white">12</span></a>
+                                                <a href="#" class="btnViewMessages btn btn-default">Messages <span class="badge bg-color-blueLight txt-color-white">0</span></a>
+                                            </div>
+                                            <!-- notification content -->
+                                            <div class="ajax-notifications custom-scroll">
+                                            </div>
+                                            <!-- end notification content -->
+                                            <!-- footer: refresh area -->
+                                            <span>Last updated on: <span class="activity-last-updated" data-livestamp="1413576903"></span>
+                                                <button type="button" class="btnViewFriends btn btn-xs btn-default pull-right">
+                                                    <i class="fa fa-refresh"></i>
+                                                </button>
+                                            </span>
+                                            <!-- end footer -->
+                                        </div>
+                                        <!-- END AJAX-DROPDOWN -->
+                                    </div>
+                                </li>
+                                <li class="page-scroll">
+                                    <asp:HyperLink runat="server" NavigateUrl="~/howitworks.aspx" elem="howitworks">How it works</asp:HyperLink>
+                                </li>
+                                <li class="page-scroll">
+                                    <asp:HyperLink runat="server" NavigateUrl="~/search.aspx" elem="buscador">Datasets</asp:HyperLink>
+                                </li>
+                                <li class="page-scroll">
+                                    <asp:HyperLink runat="server" NavigateUrl="~/registrado/desktop.aspx" elem="desktop">Desktop</asp:HyperLink>
+                                </li>
+                                <li class="page-scroll">
+                                    <asp:HyperLink runat="server" NavigateUrl="~/registrado/dashboard.aspx" elem="dashboard">Dashboard</asp:HyperLink>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>My profile </span>&nbsp;</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a runat="server" href="~/registrado/createkpi.aspx"><span class="glyphicon glyphicon-plus"></span>&nbsp;New Dropkey</a></li>
+                                        <li class="divider"></li>
+                                        <li><a runat="server" href="~/registrado/profile.aspx"><span class="glyphicon glyphicon-home"></span>&nbsp;My Wall</a></li>
+                                        <li class="divider"></li>
+                                        <li><a runat="server" href="~/registrado/desktop.aspx"><i class="fa fa-laptop"></i>&nbsp;Desktop</a></li>
+                                        <li class="divider"></li>
+                                        <li><a runat="server" href="~/registrado/dashboard.aspx"><span class="glyphicon glyphicon-th"></span>&nbsp;Dashboard </a></li>
+                                        <li class="divider"></li>
+                                        <li>
+                                            <asp:LinkButton ID="btnLogout" runat="server" OnClick="btnLogout_Click"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Sign Out</asp:LinkButton></li>
+                                    </ul>
+                                </li>
+                            </LoggedInTemplate>
+                            <RoleGroups>
+                                <asp:RoleGroup Roles="administrador">
+                                    <ContentTemplate>
+                                        <li class="page-scroll">
+                                            <div id="logo-group">
+                                                <span class="activity activity-dropdown"><i class="fa fa-user"></i><b class="activity-count badge">0</b></span>
+                                                <!-- AJAX-DROPDOWN : control this dropdown height, look and feel from the LESS variable file -->
+                                                <div class="ajax-dropdown">
+                                                    <!-- the ID links are fetched via AJAX to the ajax container "ajax-notifications" -->
+                                                    <div class="btn-group btn-group-justified">
+                                                        <a href="#" class="btnViewFriends btn btn-default">Friends <span class="badge bg-color-blueLight txt-color-white">12</span></a>
+                                                        <a href="#" class="btnViewMessages btn btn-default">Messages <span class="badge bg-color-blueLight txt-color-white">0</span></a>
+                                                    </div>
+                                                    <!-- notification content -->
+                                                    <div class="ajax-notifications custom-scroll">
+                                                    </div>
+                                                    <!-- end notification content -->
+                                                    <!-- footer: refresh area -->
+                                                    <span>Last updated on: <span class="activity-last-updated" data-livestamp="1413576903"></span>
+                                                        <button type="button" class="btnViewFriends btn btn-xs btn-default pull-right">
+                                                            <i class="fa fa-refresh"></i>
+                                                        </button>
+                                                    </span>
+                                                    <!-- end footer -->
+                                                </div>
+                                                <!-- END AJAX-DROPDOWN -->
+                                            </div>
+                                        </li>
+                                        <li class="page-scroll">
+                                            <asp:HyperLink runat="server" NavigateUrl="~/howitworks.aspx" elem="howitworks">How it works</asp:HyperLink>
+                                        </li>
+                                        <li class="page-scroll">
+                                            <asp:HyperLink runat="server" NavigateUrl="~/search.aspx" elem="buscador">Datasets</asp:HyperLink>
+                                        </li>
+                                        <li class="page-scroll">
+                                            <asp:HyperLink runat="server" NavigateUrl="~/registrado/desktop.aspx" elem="desktop">Desktop</asp:HyperLink>
+                                        </li>
+                                        <li class="page-scroll">
+                                            <asp:HyperLink runat="server" NavigateUrl="~/registrado/dashboard.aspx" elem="dashboard">Dashboard</asp:HyperLink>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>My profile </span>&nbsp;</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a runat="server" href="~/registrado/createkpi.aspx"><span class="glyphicon glyphicon-plus"></span>&nbsp;New Dropkey</a></li>
+                                                <li class="divider"></li>
+                                                <li><a runat="server" href="~/registrado/profile.aspx"><span class="glyphicon glyphicon-home"></span>&nbsp;My Wall</a></li>
+                                                <li class="divider"></li>
+                                                <li><a runat="server" href="~/registrado/desktop.aspx"><i class="fa fa-laptop"></i>&nbsp;Desktop</a></li>
+                                                <li class="divider"></li>
+                                                <li><a runat="server" href="~/registrado/dashboard.aspx"><span class="glyphicon glyphicon-th"></span>&nbsp;Dashboard </a></li>
+                                                <li class="dropdown-header"><span class="glyphicon glyphicon-wrench"></span>&nbsp;Administración</li>
+                                                <li><a id="A4" runat="server" href="~/administrador/roles.aspx"><span class="glyphicon glyphicon-lock"></span>&nbsp;Listado de Roles</a></li>
+                                                <li class="divider"></li>
+                                                <li><a id="A6" runat="server" href="~/administrador/users.aspx"><i class="fa fa-users"></i>&nbsp;Listado de Usuarios</a></li>
+                                                <li class="divider"></li>
+                                                <li><a id="A11" runat="server" href="~/administrador/configuracion.aspx"><span class="glyphicon glyphicon-list"></span>&nbsp;Parámetros</a></li>
+                                                <li class="divider"></li>
+                                                <li><a id="A12" runat="server" href="~/administrador/avisos.aspx"><span class="glyphicon glyphicon-warning-sign"></span>&nbsp;Avisos</a></li>
+                                                <li class="divider"></li>
+                                                <li><a id="A1" runat="server" href="~/elmah.axd"><span class="glyphicon glyphicon-warning-sign"></span>&nbsp;Errores</a></li>
+                                                <li class="divider"></li>
+                                                <li><a id="A13" runat="server" href="~/administrador/categories.aspx"><span class="glyphicon glyphicon-book"></span>&nbsp;Categorías</a></li>
+                                                <li class="divider"></li>
+                                                <li><a id="A14" runat="server" href="~/administrador/etiquetas.aspx"><span class="glyphicon glyphicon-tags"></span>&nbsp;Etiquetas</a></li>
+                                                <li class="divider"></li>
+                                                <li><a id="A15" runat="server" href="~/administrador/indicadores.aspx"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;Indicadores</a></li>
+                                                <li class="divider"></li>
+                                                <li>
+                                                    <asp:LinkButton ID="btnLogout" runat="server" OnClick="btnLogout_Click"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Sign Out</asp:LinkButton></li>
+                                            </ul>
+                                        </li>
+
+                                    </ContentTemplate>
+                                </asp:RoleGroup>
+                            </RoleGroups>
+                        </asp:LoginView>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+
+        <!-- Main content -->
+        <asp:ContentPlaceHolder ID="PagePlaceHolder" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <!-- Footer -->
+        <footer class="text-center">
+            <div class="footer-above">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col col-md-4">
+                            <h3>Location</h3>
+                            <p>
+                                38002 Milicias de Garachico<br />
+                                Santa Cruz de Tenerife, SPAIN
+                            </p>
+                        </div>
+                        <div class="footer-col col-md-4">
+                            <h3>Around the Web</h3>
+                            <ul class="list-inline">
+                                <li>
+                                    <a href="https://www.facebook.com/social.data.platform" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://plus.google.com/+Nicol%C3%A1sHern%C3%A1ndezGuerra/about" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/NicolasHdezGuer" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/pub/nicolas-hernandez-guerra-de-aguilar/8/646/253" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-col col-md-4">
+                            <h3>About Dropkeys</h3>
+                            <p>Dropkeys is a free to use website created by <a href="mailto:nhguerra@gmail.com?Subject=Contact">Nicolás Hdez Guerra de Aguilar</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-below">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            Copyright &copy; DropKeys 2014
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title"><i class="fa fa-unlock-alt"></i>&nbsp;Please <strong><a id="showPanelLogIn" href="#">Log In</a></strong>, or <strong><a id="showPanelSignUp" href="#">Sign Up</a></strong></h4>
+                    </div>
+                    <div class="modal-body">
+                        <div id="PanelLogIn">
+                            <div class="row">
+                                <div class="form-group col-lg-6">
+                                    <a id="btnFacebookLogin" href="#" class="btn btn-lg btn-primary btn-block"><i class="fa fa-facebook"></i>&nbsp;Facebook</a>
+                                </div>
+                                <div class="form-group col-lg-6">
+                                    <a href="#" class="btn btn-lg btn-info btn-block"><i class="fa fa-google-plus "></i>&nbsp;Google</a>
+                                </div>
+                            </div>
+                            <hr class="hr-or" />
+                            <asp:UpdatePanel ID="UPUserLogin" runat="server" ChildrenAsTriggers="true">
+                                <ContentTemplate>
+                                    <asp:Login ID="LoginUserControl" runat="server"
+                                        OnLoginError="LoginUserControl_LoginError" OnLoggingIn="LoginUserControl_LoggingIn"
+                                        OnLoggedIn="LoginUserControl_LoggedIn">
+                                        <LayoutTemplate>
+                                            <fieldset>
+                                                <div class="form-group col-xs-12 col-lg-12">
+                                                    <asp:Label runat="server" ID="UserNameLabel" AssociatedControlID="UserName"><i class="fa fa-envelope-o"></i>&nbsp;E-mail</asp:Label>
+                                                    <asp:RequiredFieldValidator ID="RequiredFieldUserName" runat="server" ValidationGroup="LoginUserValidation" ControlToValidate="UserName" CssClass="label bg-color-blue" ForeColor="#ffffff"><span class="glyphicon glyphicon-warning-sign"></span>&nbsp;E-mail is required</asp:RequiredFieldValidator>
+                                                    <asp:TextBox ID="UserName" runat="server" placeholder="Enter your e-mail" ValidationGroup="LoginUserValidation"
+                                                        TabIndex="1" autocomplete="off" CssClass="form-control" autofocus="autofocus"></asp:TextBox>
+                                                </div>
+                                                <div class="form-group col-xs-12 col-lg-12">
+                                                    <asp:LinkButton runat="server" ID="toogleToRecovery" class="small pull-right" ClientIDMode="Static" OnClick="btnRecovery_Click">Forgot password?</asp:LinkButton>
+                                                    <asp:Label ID="PasswordLabel" runat="server" AssociatedControlID="Password"><i class="fa fa-key"></i>&nbsp;Password</asp:Label>
+                                                    <asp:RequiredFieldValidator ID="RequiredFieldPassword" runat="server" ValidationGroup="LoginUserValidation" ControlToValidate="Password" CssClass="label bg-color-blue" ForeColor="#ffffff"><span class="glyphicon glyphicon-warning-sign"></span>&nbsp;Password is required</asp:RequiredFieldValidator>
+                                                    <asp:TextBox ID="Password" runat="server" TextMode="Password" placeholder="Enter your password"
+                                                        TabIndex="2" autocomplete="off" CssClass="form-control" ValidationGroup="LoginUserValidation"></asp:TextBox>
+                                                </div>
+                                                <asp:Literal ID="FailureText" runat="server" EnableViewState="False"></asp:Literal>
+                                                <div class="form-group col-xs-12 col-lg-12">
+                                                    <asp:Button ID="LoginButton" runat="server" CommandName="Login" Text="Login" ValidationGroup="LoginUserValidation"
+                                                        CausesValidation="true" TabIndex="2" CssClass="btn btn-dropkeys pull-right" />
+                                                </div>
+                                            </fieldset>
+                                            <asp:Panel runat="server" ID="PanelRecoveryPassword" ClientIDMode="Static" EnableViewState="true">
+                                                <fieldset>
+                                                    <div class="form-group col-xs-12 col-lg-12 has-success">
+                                                        <asp:Label runat="server" ID="RecoveryPasswordLabel" AssociatedControlID="txtPasswordRecovery"><i class="fa fa-keyboard-o"></i>&nbsp;Enter the e-mail address and we will send you another new one</asp:Label>
+                                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ValidationGroup="LoginUserRecovery"
+                                                            ControlToValidate="txtPasswordRecovery">*</asp:RequiredFieldValidator>
+                                                        <asp:TextBox ID="txtPasswordRecovery" runat="server" placeholder="Introduce your e-mail"
+                                                            ValidationGroup="LoginUserRecovery" TabIndex="1" CssClass="form-control required email" ClientIDMode="Static"></asp:TextBox>
+                                                    </div>
+                                                    <div class="form-group col-xs-12 col-lg-12">
+                                                        <span id="sendRecoveryEmailMessage" class="pull-left hidden">
+                                                            <i class="fa fa-refresh fa-spin"></i>&nbsp;...sending email...
+                                                        </span>
+                                                        <asp:Button ID="RecoveryButton" runat="server" Text="Recovery" ValidationGroup="LoginUserRecovery"
+                                                            CausesValidation="true" TabIndex="3" CssClass="btn btn-dropkeys pull-right" ClientIDMode="Static" />
+                                                    </div>
+                                                </fieldset>
+                                            </asp:Panel>
+                                        </LayoutTemplate>
+                                    </asp:Login>
+                                </ContentTemplate>
+                            </asp:UpdatePanel>
+                        </div>
+                        <div id="PanelSignUp" class="hidden">
+                            <asp:UpdatePanel ID="UpdatePanel1" runat="server" ChildrenAsTriggers="true">
+                                <ContentTemplate>
+                                    <asp:CreateUserWizard ID="RegistroDeUsuarioForm" OnCreateUserError="RegistroDeUsuarioForm_CreateUserError" runat="server" ActiveStepIndex="0" DisableCreatedUser="True" CreateUserButtonText="Create Account" LoginCreatedUser="true" ContinueDestinationPageUrl="~/Default.aspx" OnCreatedUser="RegistroDeUsuarioForm_CreatedUser">
+                                        <CreateUserButtonStyle CssClass="btn btn-dropkeys" />
+                                        <WizardSteps>
+                                            <asp:CreateUserWizardStep ID="CreateUserWizardStep1" runat="server">
+                                                <ContentTemplate>
+                                                    <fieldset>
+                                                        <div class="form-group col-xs-12 col-lg-12">
+                                                            <!-- EMAIL -->
+                                                            <asp:Label ID="EmailLabel" runat="server" AssociatedControlID="Email"><i class="fa fa-envelope-o"></i>&nbsp;E-mail</asp:Label>
+                                                            <asp:RequiredFieldValidator ID="EmailRequired" runat="server" ControlToValidate="Email" ValidationGroup="RegistroDeUsuarioForm" CssClass="label bg-color-blue" ForeColor="#ffffff"><span class="glyphicon glyphicon-warning-sign"></span>&nbsp;E-mail is required</asp:RequiredFieldValidator>
+                                                            <asp:RegularExpressionValidator ID="EmailRegularExpressionValidator" runat="server" Display="Dynamic" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"
+                                                                ControlToValidate="Email" ValidationGroup="RegistroDeUsuarioForm" CssClass="label bg-color-blue" ForeColor="#ffffff"><span class="glyphicon glyphicon-warning-sign"></span>&nbsp;The format of e-mail is invalid</asp:RegularExpressionValidator>
+                                                            <asp:TextBox ID="Email" runat="server" placeholder="Enter your e-mail address" CssClass="form-control" ValidationGroup="RegistroDeUsuarioForm" MaxLength="255"></asp:TextBox>
+                                                        </div>
+                                                        <div class="form-group col-xs-12 col-lg-12">
+                                                            <!-- PASSWORD -->
+                                                            <asp:Label ID="PasswordLabel" runat="server" AssociatedControlID="Password"><i class="fa fa-key"></i>&nbsp;Password</asp:Label>
+                                                            <asp:RequiredFieldValidator ID="PasswordRequired" runat="server" ControlToValidate="Password" ValidationGroup="RegistroDeUsuarioForm" CssClass="label bg-color-blue" ForeColor="#ffffff"><span class="glyphicon glyphicon-warning-sign"></span>&nbsp;Password is required</asp:RequiredFieldValidator>
+                                                            <asp:TextBox ID="Password" runat="server" TextMode="Password" placeholder="Enter your password" ValidationGroup="RegistroDeUsuarioForm" CssClass="form-control" MaxLength="30"></asp:TextBox>
+
+                                                        </div>
+                                                        <div class="form-group col-xs-12 col-lg-12">
+                                                            <!-- CONFIRM PASSWORD -->
+                                                            <asp:Label ID="ConfirmPasswordLabel" runat="server" AssociatedControlID="ConfirmPassword"><i class="fa fa-key"></i>&nbsp;Confirm password</asp:Label>
+                                                            <asp:RequiredFieldValidator ID="ConfirmPasswordRequired" runat="server" ControlToValidate="ConfirmPassword" ValidationGroup="RegistroDeUsuarioForm" CssClass="label bg-color-blue" ForeColor="#ffffff"><span class="glyphicon glyphicon-warning-sign"></span>&nbsp;Please, retype the password</asp:RequiredFieldValidator>
+                                                            <asp:CompareValidator ID="PasswordCompare" runat="server" ControlToCompare="Password" ControlToValidate="ConfirmPassword" Display="Dynamic" ValidationGroup="RegistroDeUsuarioForm" CssClass="label label-danger" ForeColor="#ffffff"><span class="glyphicon glyphicon-warning-sign"></span>&nbsp;Passwords do not match</asp:CompareValidator>
+                                                            <asp:TextBox ID="ConfirmPassword" runat="server" TextMode="Password" placeholder="Don't forget your password" ValidationGroup="RegistroDeUsuarioForm" CssClass="form-control" MaxLength="30"></asp:TextBox>
+                                                        </div>
+                                                        <hr></hr>
+                                                        <div class="form-group col-lg-6">
+                                                            <asp:Label ID="lbFirstName" runat="server" AssociatedControlID="txtFirstName"><i class="fa fa-user"></i>&nbsp;First name</asp:Label>
+                                                            <asp:RequiredFieldValidator ID="FirstNameRequired" runat="server" ControlToValidate="txtFirstName" ValidationGroup="RegistroDeUsuarioForm" CssClass="label bg-color-blue" ForeColor="#ffffff"><span class="glyphicon glyphicon-warning-sign"></span>&nbsp;Your first name is required</asp:RequiredFieldValidator>
+                                                            <asp:TextBox ID="txtFirstName" runat="server" placeholder="Enter your first name" ValidationGroup="RegistroDeUsuarioForm" CssClass="form-control" MaxLength="40"></asp:TextBox>
+                                                        </div>
+                                                        <div class="form-group col-lg-6">
+                                                            <asp:Label ID="lbLastName" runat="server" AssociatedControlID="txtLastName"><i class="fa fa-user"></i>&nbsp;Last name</asp:Label>
+                                                            <asp:RequiredFieldValidator ID="LastNameRequired" runat="server" ControlToValidate="txtLastName" ValidationGroup="RegistroDeUsuarioForm" CssClass="label bg-color-blue" ForeColor="#ffffff"><span class="glyphicon glyphicon-warning-sign"></span>&nbsp;Your last name is required</asp:RequiredFieldValidator>
+                                                            <asp:TextBox ID="txtLastName" runat="server" placeholder="Enter your last name" ValidationGroup="RegistroDeUsuarioForm" CssClass="form-control" MaxLength="40"></asp:TextBox>
+                                                        </div>
+                                                        <div class="form-group col-xs-12 col-lg-12">
+                                                            <label>
+                                                                <asp:CheckBox ID="cbAcceptTerms" runat="server" ClientIDMode="Static" ValidationGroup="RegistroDeUsuarioForm" />
+                                                                <asp:CustomValidator ID="ValTerms" ClientValidationFunction="AcceptTermsCheckBoxValidation" runat="server"
+                                                                    ErrorMessage="Please Accept Terms Of Use." ValidationGroup="RegistroDeUsuarioForm">* </asp:CustomValidator>
+                                                                <span class="note">Clicking on "Create Account", you consent to our <a href="#">terms of service</a> and <a href="#">privacy policy</a></span>
+                                                            </label>
+                                                        </div>
+                                                        <asp:Literal ID="CreateUserErrorMessage" runat="server" EnableViewState="False"></asp:Literal>
+                                                        <div class="hidden">
+                                                            <!-- USERNAME -->
+                                                            <asp:Label ID="UserNameLabel" runat="server" AssociatedControlID="UserName" Text="First and last name"></asp:Label>
+                                                            <asp:TextBox ID="UserName" runat="server" placeholder="" ValidationGroup="RegistroDeUsuarioForm" CssClass="form-control" MaxLength="40"></asp:TextBox>
+                                                            <!-- PREGUNTA SECRETA -->
+                                                            <asp:Label ID="QuestionLabel" runat="server" AssociatedControlID="Question">Pregunta de seguridad</asp:Label>
+                                                            <asp:TextBox ID="Question" runat="server" placeholder="Introduzca una pregunta secreta"></asp:TextBox>
+                                                            <!-- RESPUESTA SECRETA -->
+                                                            <asp:Label ID="AnswerLabel" runat="server" AssociatedControlID="Answer">Respuesta de seguridad</asp:Label>
+                                                            <asp:TextBox ID="Answer" runat="server" placeholder="Introduzca la respuesta secreta"></asp:TextBox>
+                                                        </div>
+                                                    </fieldset>
+                                                </ContentTemplate>
+                                            </asp:CreateUserWizardStep>
+                                            <asp:CompleteWizardStep ID="CompleteWizardStep1" runat="server">
+                                                <ContentTemplate>
+                                                    <div class="message info">
+                                                        <div>
+                                                            <asp:Label ID="lbTextoFinFormularioLogin" runat="server" Text="Muchas gracias" />
+                                                        </div>
+                                                        <div>
+                                                            Muchas gracias.
+                                                        </div>
+                                                    </div>
+                                                    <div class="center">
+                                                        <asp:Button ID="ContinueButton" runat="server" CausesValidation="False" CommandName="Continue" Text="Finish" ValidationGroup="CreateUserWizard1" CssClass="SielocalButton center" />
+                                                    </div>
+                                                </ContentTemplate>
+                                            </asp:CompleteWizardStep>
+                                        </WizardSteps>
+                                    </asp:CreateUserWizard>
+                                </ContentTemplate>
+                            </asp:UpdatePanel>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+        <div id="frmUserData" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title">User Information</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="lockscreen animated flipInY">
+                            <div class="row">
+                                <div class="col-4-lg col-4 col-xs-4">
+                                    <img runat="server" id="modalUserImage" src="images/noavatar.png" alt="" height="80" width="80" />
+                                </div>
+                                <div class="col-8-lg col-8 col-xs-8">
+                                    <h4 id="modal-user-name"></h4>
+                                </div>
+                            </div>
+                            <p class="margin-top-5"><span id="modal-user-resume"></span></p>
+                            <div class="well margin-top-10">
+                                <p><i class="fa fa-share-alt"></i>&nbsp;<span id="modal-user-shared"></span>&nbsp;shared</p>
+                                <p><i class="fa fa-flask"></i>&nbsp;<span id="modal-user-formula">12</span>&nbsp;formulas</p>
+                                <p><i class="fa fa-group"></i>&nbsp;<span id="modal-user-friends"></span>&nbsp;friends</p>
+                                <h1><small>Common indicators</small></h1>
+                                <ul id="modal-user-indicators" class="list-inline friends-list">
+                                </ul>
+                            </div>
+
+                            <div class="text-center">
+                                <a id="frmUserData-btnYes" class="btn btn-success"></a>
+                                <a id="frmUserData-btnNo" class="btn btn-danger"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <asp:ContentPlaceHolder ID="ScriptsPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-55972813-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+</body>
+</html>

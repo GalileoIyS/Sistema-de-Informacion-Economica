@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/Site.master" AutoEventWireup="true"
+    CodeFile="NormalPage.master.cs" Inherits="masterpages_normalpage" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadPlaceHolder" runat="Server">
+    <asp:ContentPlaceHolder ID="HeadContentPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="PagePlaceHolder" runat="Server">
+    <asp:ContentPlaceHolder ID="EntirePagePlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="OneColumnPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ScriptsPlaceHolder" runat="server">
+    <!-- Link to Google CDN's jQuery + jQueryUI; fall back to local -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script type="text/javascript">
+        if (!window.jQuery) {
+            document.write('<script src="scripts/libs/jquery-2.0.2.min.js"><\/script>');
+        }
+    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script type="text/javascript">
+        if (!window.jQuery.ui) {
+            document.write('<script src="scripts/libs/jquery-ui-1.10.3.min.js"><\/script>');
+        }
+    </script>
+    <!-- Libreria javascript de bootstrap-->
+    <script src="<%=Page.ResolveUrl("~/scripts/bootstrap.min.js") %>" type="text/javascript"></script>
+    <!-- Libreria javascript de bootstrap-->
+    <script src="<%=Page.ResolveUrl("~/scripts/bootstrap3-typeahead.min.js") %>" type="text/javascript"></script>
+    <!-- Librerías necesarias para el tema smartadmin-->
+    <script src="<%=Page.ResolveUrl("~/scripts/app.config.js") %>" type="text/javascript"></script>
+    <script src="<%=Page.ResolveUrl("~/scripts/app.js") %>" type="text/javascript"></script>
+        <!-- Para las notificaciones al usuario-->
+    <script src="<%=Page.ResolveUrl("~/scripts/plugin/notification/SmartNotification.min.js") %>" type="text/javascript"></script>
+    <!-- Algunas otras librerías necesarias -->
+    <script src="<%=Page.ResolveUrl("~/scripts/plugin/moment/moment-with-locales.min.js") %>" type="text/javascript"></script>
+    <script src="<%=Page.ResolveUrl("~/scripts/plugin/livestamp/livestamp.min.js") %>" type="text/javascript"></script>
+    <!-- Mis librerías generales -->
+    <%= System.Web.Optimization.Scripts.Render("~/js/kpigeneralV100")%>
+    <!-- Mis librerías de clases -->
+    <%= System.Web.Optimization.Scripts.Render("~/js/kpiclassesV100")%>
+    <!-- Mis librerías de objetos -->
+    <%= System.Web.Optimization.Scripts.Render("~/js/kpiobjectsV100")%>
+    <!-- Mis controles propios -->
+    <%= System.Web.Optimization.Scripts.Render("~/js/kpicontrolsV100")%>
+    <!-- Mis librerías customizadas -->
+    <%= System.Web.Optimization.Scripts.Render("~/js/customSmartAdminV100")%>
+    <!--[if IE 8]>
+		<h1>Your browser is out of date, please update your browser by going to www.microsoft.com/download</h1>
+	<![endif]-->
+    <asp:ContentPlaceHolder ID="ScriptsContentPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>

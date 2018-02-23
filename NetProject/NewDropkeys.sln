@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Web
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Clases", "Clases\Clases\Clases.vbproj", "{B7415B49-C107-437F-B373-DAF61920E83A}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "KPIWebSite", "KPIWebSite", "{341C5CA9-4C05-4B52-BC03-C796728D31F8}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{B7415B49-C107-437F-B373-DAF61920E83A}|Clases.dll;{50F01D98-2E00-44B4-B309-4DB4B0894618}|JSonClases.dll;{bd7b0ec1-9ea7-4aed-ab50-5096577364d0}|PostgresProvider.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/KPIWebSite"
+		Debug.AspNetCompiler.PhysicalPath = "KPIWebSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\KPIWebSite\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/KPIWebSite"
+		Release.AspNetCompiler.PhysicalPath = "KPIWebSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\KPIWebSite\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49810"
+		VWDVirtualPath = "/"
+		SlnRelativePath = "KPIWebSite\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSonClases", "JSonClases\JSonClases.csproj", "{50F01D98-2E00-44B4-B309-4DB4B0894618}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostgresProvider", "Clases\PostgresProvider\PostgresProvider.csproj", "{BD7B0EC1-9EA7-4AED-AB50-5096577364D0}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://softandcountry.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Clases\\Clases\\Clases.vbproj
+		SccProjectName1 = Clases/Clases
+		SccLocalPath1 = Clases\\Clases
+		SccProjectUniqueName2 = JSonClases\\JSonClases.csproj
+		SccProjectName2 = JSonClases
+		SccLocalPath2 = JSonClases
+		SccProjectUniqueName3 = Clases\\PostgresProvider\\PostgresProvider.csproj
+		SccProjectName3 = Clases/PostgresProvider
+		SccLocalPath3 = Clases\\PostgresProvider
+		SccWebProject4 = true
+		SccProjectUniqueName4 = KPIWebSite
+		SccProjectName4 = KPIWebSite
+		SccLocalPath4 = KPIWebSite
+		SccProjectEnlistmentChoice4 = 2
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7415B49-C107-437F-B373-DAF61920E83A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7415B49-C107-437F-B373-DAF61920E83A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7415B49-C107-437F-B373-DAF61920E83A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7415B49-C107-437F-B373-DAF61920E83A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{341C5CA9-4C05-4B52-BC03-C796728D31F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{341C5CA9-4C05-4B52-BC03-C796728D31F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{341C5CA9-4C05-4B52-BC03-C796728D31F8}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{341C5CA9-4C05-4B52-BC03-C796728D31F8}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{50F01D98-2E00-44B4-B309-4DB4B0894618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50F01D98-2E00-44B4-B309-4DB4B0894618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50F01D98-2E00-44B4-B309-4DB4B0894618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50F01D98-2E00-44B4-B309-4DB4B0894618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD7B0EC1-9EA7-4AED-AB50-5096577364D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD7B0EC1-9EA7-4AED-AB50-5096577364D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD7B0EC1-9EA7-4AED-AB50-5096577364D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD7B0EC1-9EA7-4AED-AB50-5096577364D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Blank.master.cs" Inherits="BlankMaster" %>
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Big Data cataloge using shared indicators" />
+    <meta name="keywords" content="Indicadores de Gestión, KPI, cuadros de mando" />
+    <meta name="author" content="Nicolas Agustin Hernandez Guerra de Aguilar">
+    <title>DropKeys</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/content/css/bootstrap.css" rel="stylesheet">
+
+    <!-- SmartAdmin Styles : Please note (smartadmin-production.css) was created using LESS variables -->
+    <link rel="stylesheet" type="text/css" media="screen" href="/content/css/smartadmin-production.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/content/css/smartadmin-skins.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/content/css/lockscreen.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="/content/css/jquery-ui-1.10.3.custom.css">
+    <!-- Custom Fonts -->
+    <link href="/content/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+    <!-- iOS web-app metas : hides Safari UI Components and Changes Status Bar Appearance -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <asp:ContentPlaceHolder ID="HeadPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="main">
+        <form id="MainForm" runat="server" class="lockscreen animated flipInY">
+            <!-- Main content -->
+            <asp:ContentPlaceHolder ID="PagePlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+        </form>
+    </div>
+    <asp:ContentPlaceHolder ID="ScriptsPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>
