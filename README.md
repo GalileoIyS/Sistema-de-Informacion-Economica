@@ -12,7 +12,7 @@ Algunos sistemas basados en esta herramienta son:
 ### Guía de usuario
 La herramienta permite a cualquier usuario no registrado, acceder a todo el repositorio de indicadores como si de un portal de Big Data se tratase. No obstante, para podr interactuar con los datos, definir sus propios cuadros de mando y representar correlaciones comparativas es necesario estar registrado. De esta manera, el usuario puede añadir nuevos indicadores a su cuenta, hacerlos públicos para que otros usuarios contribuyan con sus datos o simplemente contribuir sobre algún otro indicador público del repositorio.
 
-Si desea obtener más información puede acceder directamente a la siguiente direción http://www.dropkeys.com/howitworks.aspx
+Si desea obtener más información puede acceder directamente a la siguiente dirección http://www.dropkeys.com/howitworks.aspx
 
 Tambien se proporciona el manual de usuario completo en formato PDF.
 
