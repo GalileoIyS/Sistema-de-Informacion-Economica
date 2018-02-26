@@ -19,9 +19,13 @@ Tambien se proporciona el manual de usuario completo en formato PDF.
 ### Guía de instalación
 ---
 
-    1. Puedes usar este estilo de letra diferenciar los comandos de instalación.
-    2. 
-    3. 
+    1. Descargar e instalar la versión Community del Visual Studio (2015 o superior) desde la siguiente dirección: https://www.visualstudio.com/es/vs/community
+    2. Instalar la extensión para acceder a un repositorio Github desde el entorno de programación.
+    3. Especificar la dirección de este repositorio y descargarse el proyecto a local.
+    4. Comprobar que compila correctamente.
+    5. Restaurar la base de datos que puede encontrar en este repositorio en un servidor de Base de Datos PostgreSQL 8 o superior.
+    6. Modificar los parámetros de conexión a la base de datos establecidos en el fichero de configuración del proyecto localizado en el web.config.
+    7. Ejecutar y probar.
 
 *(Rellenar más información con requisitos del sistema operativo, dependencias, descripción del directorio o cualquier información que sea relevante para usar las clases.)*
 
