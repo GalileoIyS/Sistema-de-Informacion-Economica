@@ -2,14 +2,27 @@
 ---
 Se trata de crear una plataforma web de software libre que permite publicar información económica de cualquier país de una forma fácil y rápida.
 
-Ponemos a disposición de la comunicad Open Source una plataforma web con licencia de software libre, que puede ejecutarse independientemente de la arquitectura software (Windows, Linux, Mac Apple etc.) del servidor subyacente, capaz de importar y posteriormente representar, cualquier conjunto de datos mediante una serie de gráficos y mapas interactivos para fomentar la transparencia y participación ciudadana de los diferentes países. 
+Ponemos a disposición de la comunicad Open Source una plataforma web con licencia de software libre, que puede ejecutarse independientemente de la arquitectura software del servidor subyacente (Windows, Linux, Mac Apple etc.) capaz de importar y posteriormente representar, cualquier conjunto de datos mediante una serie de gráficos y mapas interactivos en varios contextos.
+
+Galileo propone la utilización de esta potente herramienta en el contexto de la información pública y de gobierno abierto, para fomentar la transparencia y la participación ciudadana de diferentes países. 
+
+Nuestra idea es trabajar para compartir una plataforma inicial, la fue concebida para dar soporte a diversos contextos y se encuentra actualmente en uso en el [servicio de información DropKeys](http://www.dropkeys.com); y extenderla para dotarla de mecanismos más extensos aplicados al contexto de información económica y financiera en sus dimensiones de importación de datos, módulo analítico, así como en la plataforma web de colaboración y los módulos de visualización.
 
 ### Guía de usuario
+
+El sistema, permite inicialmente: 
+ * **Importar** fuentes de datos de varios tipos para crear indicadores en el sistema.
+ * **Definir** e incluir indicadores en una librería propia de indicadores, y en el caso de que no existan, poder crear indicadores desde cero, o crealos a partir de la combinación de los existentes.
+ * **Compartir** los indicadores con la comunidad y encontrar y trabajar  con otras personas interesadas en los mismos campos de actuación, para crear conocimiento juntos.
+ * **Analizar y Visualizar** gracias a la capacidad que aporta la plataforma en materia de Business Intelligence, generar facilmente cuadros de mando a partir de los indicadores, utilizando potentes gráficos y fórmulas y permitiendo el análisis en periodos de tiempo según nuestras necesidades.
+
 La herramienta permite a cualquier usuario no registrado, acceder a todo el repositorio de indicadores como si de un portal de Big Data se tratase. No obstante, para poder interactuar con los datos, definir sus propios cuadros de mando y representar correlaciones comparativas es necesario estar registrado. De esta manera, el usuario puede añadir nuevos indicadores a su cuenta, hacerlos públicos para que otros usuarios contribuyan con sus datos o simplemente contribuir sobre algún otro indicador público del repositorio.
 
-Si desea obtener más información puede acceder directamente a la siguiente dirección http://www.dropkeys.com/howitworks.aspx
+Si desea obtener más información puede acceder directamente a la siguiente dirección http://www.dropkeys.com/howitworks.aspx en donde verá una demo de la plataforma.
 
-Tambien se proporciona el manual de usuario completo en formato PDF.
+Tambien se proporciona un [manual de usuario](https://github.com/GalileoIyS/ecoanalytics/blob/master/Manual%20de%20usuario.pdf) completo en formato PDF.
+
+
 
 ### Guía de instalación
 ---
