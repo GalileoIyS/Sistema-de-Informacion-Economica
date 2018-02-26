@@ -2,7 +2,7 @@
 ---
 Se trata de crear una plataforma web de software libre que permite publicar información económica de cualquier país de una forma fácil y rápida.
 
-Ponemos a disposición de la comunicad Open souirce una plataforma web con licencia de software libre, que puede ejecutarse independientemente de la arquitectura software (Windows, Linux, Mac Apple etc.) del servidor subyacente, capaz de importar y posteriormente representar, cualquier conjunto de datos mediante una serie de gráficos y mapas interactivos para fomentar la transparencia y participación ciudadana de los diferentes países. 
+Ponemos a disposición de la comunicad Open Source una plataforma web con licencia de software libre, que puede ejecutarse independientemente de la arquitectura software (Windows, Linux, Mac Apple etc.) del servidor subyacente, capaz de importar y posteriormente representar, cualquier conjunto de datos mediante una serie de gráficos y mapas interactivos para fomentar la transparencia y participación ciudadana de los diferentes países. 
 
 ### Guía de usuario
 La herramienta permite a cualquier usuario no registrado, acceder a todo el repositorio de indicadores como si de un portal de Big Data se tratase. No obstante, para poder interactuar con los datos, definir sus propios cuadros de mando y representar correlaciones comparativas es necesario estar registrado. De esta manera, el usuario puede añadir nuevos indicadores a su cuenta, hacerlos públicos para que otros usuarios contribuyan con sus datos o simplemente contribuir sobre algún otro indicador público del repositorio.
