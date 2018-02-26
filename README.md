@@ -9,7 +9,7 @@ Algunos sistemas basados en esta herramienta son:
 * **[DropKeys](http://www.dropkeys.com/)**: Portal de datos abierto para compartir datos, indicadores y conocimiento sobre diferentes temáticas.
 * **Sistema de rendición de cuentas del Gobierno de Canarias**: Sistema utilizado por XX administraciones locales para rendir las cuentas económicas anuales a la administración territorial. 
 
-### Cómo usar
+### Cómo instalar
 ---
 
     1. Puedes usar este estilo de letra diferenciar los comandos de instalación.
