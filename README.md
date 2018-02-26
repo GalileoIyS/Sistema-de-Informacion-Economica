@@ -1,47 +1,46 @@
-## Ecoanalytics
+## Sistema de Información Económica
+---
+El Sistema de Información Económica es una plataforma que permite la rendición de cuentas económicas por parte de administraciones locales a administraciones territoriales con funciones de tutela financiera.
+
+Este software sirve como herramienta de control de la estabilidad presupuestaria y endeudamiento de administraciones locales. Contiene un sistema de rendición de cuentas telemático y un sistema de diseño de indicadores y reportes que ayuda organismos de control a tutelar la actividad económica de las administraciones territoriales de una provincia o país. 
+
+Algunos sistemas basados en esta herramienta son:
+* **[Sielocal.com](www.sielocal.com)**: Portal de datos económicos abiertos con más de XX informes económicos con datos de más de XXXX municipios de Latinoamérica y España.
+* **[DropKeys](http://www.dropkeys.com/)**: Portal de datos abierto para compartir datos, indicadores y conocimiento sobre diferentes temáticas.
+* **Sistema de rendición de cuentas del Gobierno de Canarias**: Sistema utilizado por XX administraciones locales para rendir las cuentas económicas anuales a la administración territorial. 
+
+### Cómo usar
 ---
 
+    1. Puedes usar este estilo de letra diferenciar los comandos de instalación.
+    2. 
+    3. 
 
-### Guía de usuario
----
-Explica los pasos básicos sobre cómo usar la herramienta digital. Es una buena sección para mostrar capturas de pantalla o gifs que ayuden a entender la herramienta digital.
- 	
-### Guía de instalación
----
-Paso a paso de cómo instalar la herramienta digital. En esta sección es recomendable explicar la arquitectura de carpetas y módulos que componen el sistema.
+*(Rellenar más información con requisitos del sistema operativo, dependencias, descripción del directorio o cualquier información que sea relevante para usar las clases.)*
 
-Según el tipo de herramienta digital, el nivel de complejidad puede variar. En algunas ocasiones puede ser necesario instalar componentes que tienen dependencia con la herramienta digital. Si este es el caso, añade también la siguiente sección.
-
-La guía de instalación debe contener de manera específica:
-- Los requisitos del sistema operativo para la compilación (versiones específicas de librerías, software de gestión de paquetes y dependencias, SDKs y compiladores, etc.).
-- Las dependencias propias del proyecto, tanto externas como internas (orden de compilación de sub-módulos, configuración de ubicación de librerías dinámicas, etc.).
-- Pasos específicos para la compilación del código fuente y ejecución de tests unitarios en caso de que el proyecto disponga de ellos.
-
-#### Dependencias
-Descripción de los recursos externos que generan una dependencia para la reutilización de la herramienta digital (librerías, frameworks, acceso a bases de datos y licencias de cada recurso). Es una buena práctica describir las últimas versiones en las que ha sido probada la herramienta digital. 
+#### Dependencias y requisitos técnicos
+*Descripción de los recursos externos que generan una dependencia para la reutilización de la herramienta digital (librerías, frameworks, acceso a bases de datos y licencias de cada recurso). Es una buena práctica describir las últimas versiones en las que ha sido probada la herramienta digital.*
 
     Puedes usar este estilo de letra diferenciar los comandos de instalación.
 
 ### Cómo contribuir
 ---
-Para contribuir al desarrollo de este software, por favor ponerse en contacto con Galileo Ingeniera y Servicios. Ellos info@galileoiys.es .
+Si quieres contribuir al desarrollo de nuevas clases, añadir funcionalidades o hacer una aplicación adaptada a las necesidades de tu administración, puedes contactarno a través del email (galileo@galileoiys.es)[galileo@galileoiys.es].
 
-### Código de conducta 
----
-El código de conducta establece las normas sociales, reglas y responsabilidades que los individuos y organizaciones deben seguir al interactuar de alguna manera con la herramienta digital o su comunidad. Es una buena práctica para crear un ambiente de respeto e inclusión en las contribuciones al proyecto. 
+Este software consta de diferentes sistemas creados para diferentes proyectos. Actualmente está en proceso de ser re-empaquetado y ofrecido completo bajo un mismo repositorio.
 
-La plataforma Github premia y ayuda a los repositorios dispongan de este archivo. Al crear CODE_OF_CONDUCT.md puedes empezar desde una plantilla sugerida por ellos. Puedes leer más sobre cómo crear un archivo de Código de Conducta (aquí)[https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/]
+**Consulta más información sobre nosotros en: http://www.galileoiys.es/**
 
 ### Colaboradores
 ---
-El equipo de desarrollo de (Galileo Ingeniera y Servicios)[http://www.galileoiys.es/] ha desarrollado este software durante
-
-### Información adicional
----
-Esta es la sección que permite agregar más información de contexto al proyecto como alguna web de relevancia, proyectos similares o que hayan usado la misma tecnología.
+Este software ha sido desarrollado gracias a la colaboración de expertos en 
 
 ### Licencia 
 ---
+[GPLv3](https://github.com/GalileoIyS/Gestion-Catastral/blob/master/LICENSE)
 
 ## Sobre Galileo Ingeniera y Servicios 
 ---
+Galileo Ingeniera y Servicios es una empresa con más de 25 años de experiencia en el sector de tecnología y consultora económica para la administración pública...
+
+(Link)
