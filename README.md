@@ -1,16 +1,11 @@
 ## Sistema de Información Económica
 ---
-El Sistema de Información Económica es una plataforma que permite la rendición de cuentas económicas por parte de administraciones locales a administraciones territoriales con funciones de tutela financiera.
+Se trata de crear una plataforma web de software libre que permite publicar información económica de cualquier país de una forma fácil y rápida.
 
-Este software sirve como herramienta de control de la estabilidad presupuestaria y endeudamiento de administraciones locales. Contiene un sistema de rendición de cuentas telemático y un sistema de diseño de indicadores y reportes que ayuda organismos de control a tutelar la actividad económica de las administraciones territoriales de una provincia o país. 
-
-Algunos sistemas basados en esta herramienta son:
-* **[Sielocal.com](www.sielocal.com)**: Portal de datos económicos abiertos con más de XX informes económicos con datos de más de XXXX municipios de Latinoamérica y España.
-* **[DropKeys](http://www.dropkeys.com/)**: Portal de datos abierto para compartir datos, indicadores y conocimiento sobre diferentes temáticas.
-* **Sistema de rendición de cuentas del Gobierno de Canarias**: Sistema utilizado por XX administraciones locales para rendir las cuentas económicas anuales a la administración territorial. 
+Ponemos a disposición de la comunicad Open souirce una plataforma web con licencia de software libre, que puede ejecutarse independientemente de la arquitectura software (Windows, Linux, Mac Apple etc.) del servidor subyacente, capaz de importar y posteriormente representar, cualquier conjunto de datos mediante una serie de gráficos y mapas interactivos para fomentar la transparencia y participación ciudadana de los diferentes países. 
 
 ### Guía de usuario
-La herramienta permite a cualquier usuario no registrado, acceder a todo el repositorio de indicadores como si de un portal de Big Data se tratase. No obstante, para podr interactuar con los datos, definir sus propios cuadros de mando y representar correlaciones comparativas es necesario estar registrado. De esta manera, el usuario puede añadir nuevos indicadores a su cuenta, hacerlos públicos para que otros usuarios contribuyan con sus datos o simplemente contribuir sobre algún otro indicador público del repositorio.
+La herramienta permite a cualquier usuario no registrado, acceder a todo el repositorio de indicadores como si de un portal de Big Data se tratase. No obstante, para poder interactuar con los datos, definir sus propios cuadros de mando y representar correlaciones comparativas es necesario estar registrado. De esta manera, el usuario puede añadir nuevos indicadores a su cuenta, hacerlos públicos para que otros usuarios contribuyan con sus datos o simplemente contribuir sobre algún otro indicador público del repositorio.
 
 Si desea obtener más información puede acceder directamente a la siguiente dirección http://www.dropkeys.com/howitworks.aspx
 
