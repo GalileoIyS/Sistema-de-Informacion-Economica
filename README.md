@@ -1,6 +1,6 @@
 ## Sistema de Información Económica
 ---
-Se trata de crear una plataforma web de software libre que permite publicar información económica de cualquier país de una forma fácil y rápida.
+Se trata de crear una plataforma web que facilitará la remisión de datos e información económica de administraciones públicas de cualquier país mediante la utilización de indicadores básicos publicados o a partir de la creación de otros más complejos y su compartición y su utilización por un motor de Business Intelligence. Al mismo tiempo, permite publicar información de forma fácil y rápida para permitir encontrar y analizar información económica utilizando múltiples modos de visualización, desde gráficos hasta mapas interactivos por parte de usuarios.
 
 Ponemos a disposición de la comunicad Open Source una plataforma web con licencia de software libre, que puede ejecutarse independientemente de la arquitectura software del servidor subyacente (Windows, Linux, Mac Apple etc.) capaz de importar y posteriormente representar, cualquier conjunto de datos mediante una serie de gráficos y mapas interactivos en varios contextos.
 
