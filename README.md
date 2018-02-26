@@ -9,7 +9,14 @@ Algunos sistemas basados en esta herramienta son:
 * **[DropKeys](http://www.dropkeys.com/)**: Portal de datos abierto para compartir datos, indicadores y conocimiento sobre diferentes temáticas.
 * **Sistema de rendición de cuentas del Gobierno de Canarias**: Sistema utilizado por XX administraciones locales para rendir las cuentas económicas anuales a la administración territorial. 
 
-### Cómo instalar
+### Guía de usuario
+La herramienta permite a cualquier usuario no registrado, acceder a todo el repositorio de indicadores como si de un portal de Big Data se tratase. No obstante, para podr interactuar con los datos, definir sus propios cuadros de mando y representar correlaciones comparativas es necesario estar registrado. De esta manera, el usuario puede añadir nuevos indicadores a su cuenta, hacerlos públicos para que otros usuarios contribuyan con sus datos o simplemente contribuir sobre algún otro indicador público del repositorio.
+
+Si desea obtener más información puede acceder directamente a la siguiente direción http://www.dropkeys.com/howitworks.aspx
+
+Tambien se proporciona el manual de usuario completo en formato PDF.
+
+### Guía de instalación
 ---
 
     1. Puedes usar este estilo de letra diferenciar los comandos de instalación.
