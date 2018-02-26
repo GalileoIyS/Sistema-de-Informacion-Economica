@@ -6,7 +6,7 @@ Ponemos a disposición de la comunicad Open Source una plataforma web con licenc
 
 Galileo propone la utilización de esta potente herramienta en el contexto de la información pública y de gobierno abierto, para fomentar la transparencia y la participación ciudadana de diferentes países. 
 
-Nuestra idea es trabajar para compartir una plataforma inicial, la fue concebida para dar soporte a diversos contextos y se encuentra actualmente en uso en el [servicio de información DropKeys](http://www.dropkeys.com); y extenderla para dotarla de mecanismos más extensos aplicados al contexto de información económica y financiera en sus dimensiones de importación de datos, módulo analítico, así como en la plataforma web de colaboración y los módulos de visualización.
+Nuestra idea es trabajar para compartir una plataforma inicial, la fue concebida para dar soporte a diversos contextos y se encuentra actualmente en uso en el [servicio de información DropKeys](http://www.dropkeys.com); y extenderla para dotarla de mecanismos más extensos aplicados al contexto de información económica y financiera en sus dimensiones de importación de datos, módulo analítico, así como en la plataforma web de colaboración y los módulos de visualización. El código que se presenta es la plataforma inicial a partir de la cual construir el producto final.
 
 ### Guía de usuario
 
@@ -62,7 +62,7 @@ Este software ha sido desarrollado gracias a la colaboración de expertos en
 
 ### Licencia 
 ---
-[GPLv3](https://github.com/GalileoIyS/Gestion-Catastral/blob/master/LICENSE)
+[Apache v2](https://www.apache.org/licenses/LICENSE-2.0)
 
 ## Sobre Galileo Ingeniera y Servicios 
 ---
