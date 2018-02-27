@@ -131,3 +131,8 @@ Galileo dispone de productos y servicios que abarcan todo el espectro de necesid
 
 Puede leer más información de nuestras [Empresas Colaboradoras y Referencias de Clientes](https://github.com/GalileoIyS/ecoanalytics/blob/master/Referencias.md).
 
+Puede ver una lista detallada de las referencias donde han sido implantadas nuestras tecnologías en diversas áreas en
+[Referencias y Demos de Productos Galileo](https://github.com/GalileoIyS/ecoanalytics/blob/master/ReferenciasDemos.md)
+
+
+
