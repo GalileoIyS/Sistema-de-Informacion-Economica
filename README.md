@@ -18,13 +18,16 @@ Nuestra plataforma ha sido desarrollada contando con la experiencia de más de 3
 
 Galileo propone crear una plataforma web que facilitará la remisión de datos e información económica de administraciones públicas de cualquier país mediante la utilización de indicadores básicos publicados o a partir de la creación de otros más complejos y su compartición y su utilización por un motor de Business Intelligence. Esta plantaforma permite también al mismo tiempo publicar información de forma fácil y rápida para permitir encontrar y analizar información económica utilizando múltiples modos de visualización, desde gráficos hasta mapas interactivos por parte de usuarios.
 
-Galileo pone a disposición de la comunidad Open Source un potente módulo analítico com pieza central de la futura plataforma integrada, para su utilización y evolución en el contexto de la información pública y de gobierno abierto, para fomentar la transparencia y la participación ciudadana de diferentes países. 
+Inicialmente, Galileo pone a disposición de la comunidad Open Source un potente módulo analítico com pieza central de la futura plataforma integrada, para su utilización y evolución en el contexto de la información pública y de gobierno abierto, para fomentar la transparencia y la participación ciudadana de diferentes países. Estamos actualmente trabajando en el desarrollo de la plataforma de visualización de datos como proyecto interno que será liberado bajo licenciamiento open source, en la que se plasme el conocimiento y la experiencia del sistema [Sielocal.com](http://www.sielocal.com/). 
 
-Por tanto, como punto de partida, para trabajar en nuestra idea compartimos la plataforma inicial de anlítica, la fue concebida para dar soporte a diversos contextos y se encuentra actualmente en uso en el [servicio de información DropKeys](http://www.dropkeys.com); y extenderla para dotarla de mecanismos más extensos aplicados al contexto de información económica y financiera en sus dimensiones de importación de datos, módulo analítico, así como en la plataforma web de colaboración y los módulos de visualización. El código que se presenta es la plataforma inicial a partir de la cual construir la plataforma final, que además contará con los siguientes módulos:
+Por tanto, como punto de partida, para trabajar en nuestra idea compartimos la plataforma inicial de anlítica, la fue concebida para dar soporte a diversos contextos y se encuentra actualmente en uso en el [servicio de información DropKeys](http://www.dropkeys.com); y extenderla para dotarla de mecanismos más extensos aplicados al contexto de información económica y financiera en sus dimensiones de importación de datos, módulo analítico, así como en la plataforma web de colaboración y los módulos de visualización. 
+
+El código que se presenta es la plataforma inicial a partir de la cual construir la plataforma final, que contará con los siguientes módulos:
 
  * Importación de múltiples fuentes de datos
  * Módulo Analítico
  * Plataforma Web de Uso, Publicación, Visualización, Remisión y Administración
+
 
 Como conclusión se podrá disponer de una plataforma capaz de publicar información compleja cruzando, como por ejemplo, a partir de fuentes de datos económicos e información georefrenciada, para llegar a publicar informes complejos como el [Mapa de Infraestructuras](https://www.gobiernodecanarias.org/hacienda/unifica/Transparencia/Mapa/Index) que contiene la información de la Encuesta de Infraestructura y Equipamientos Locales (EIEL) en España cuya finalidad es, según establece el Real Decreto 835/2003, de 27 de junio por el que se regula la cooperación económica del Estado a las inversiones de las entidades locales, "conocer la situación de las infraestructuras y equipamientos de competencia municipal, formando un inventario de ámbito nacional, de carácter censal, con información precisa y sistematizada de los municipios con población inferior a 50.000 habitantes".
 
@@ -36,8 +39,23 @@ Por otro lado, se muestra un ejemplo de la Automatización de formularios de rem
 ![Automatización de Remisión de Información](https://github.com/GalileoIyS/ecoanalytics/blob/master/SistemaInformacionEconomica-AutomatizacionRemisionInformacionPublica.png "Ejemplo de Automatización de Remisión de Información")
 
 
+
 ### Guía de usuario
 
+#### Modulo de importación, análisis y visualización de información 
+Este módulo permite:
+ * Transparencia: Utilice nuestro Portal de Transparencia para publicar de forma rápida y sencilla toda aquella información que desee compartir con sus ciudadanos.
+ * Periodismo de Datos: Acceda de forma gratuita a nuestra base de datos de indicadores y compruebe cual es la situación actual de la Administración Pública en solo un click de ratón.
+ * Gráficas interactivas: Somos expertos en construir gráficos dinámicos utilizando fuentes de datos complejas que ayuden a comprender y analizar dicha información.
+
+Para una descripción completa de lo que es capaz el sistema puede visitar el [servicio Sielocal.com](http://www.sielocal.com/) en donde está implantado. El siguiente video muestra una descripción general de su funcionamiento.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/k4tg07G3_aI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+También puede visitar el canal de [Youttube de Sielocal.com](https://www.youtube.com/user/SIELOCAL/videos) en donde podrá visualizar más videos descriptivos de la plataforma.
+
+
+#### Módulo Analítico
 El módulo analítico permite inicialmente: 
  * **Importar** fuentes de datos de varios tipos para crear indicadores en el sistema.
  * **Definir** e incluir indicadores en una librería propia de indicadores, y en el caso de que no existan, poder crear indicadores desde cero, o crealos a partir de la combinación de los existentes.
@@ -55,6 +73,7 @@ Tambien se proporciona un [manual de usuario](https://github.com/GalileoIyS/ecoa
 ### Guía de instalación
 ---
 
+#### Módulo Analítico
     1. Descargar e instalar la versión Community del Visual Studio (2015 o superior) desde la siguiente dirección: https://www.visualstudio.com/es/vs/community/
     
     2. Instalar la extensión de Visual Studio (GitHub Extension for Visual Studio) para acceder a este repositorio GitHub desde el entorno de programación.
@@ -69,7 +88,7 @@ Tambien se proporciona un [manual de usuario](https://github.com/GalileoIyS/ecoa
     
     7. Ejecutar y probar que todo funciona correctamente.
 
-*(Rellenar más información con requisitos del sistema operativo, dependencias, descripción del directorio o cualquier información que sea relevante para usar las clases.)*
+
 
 #### Dependencias y requisitos técnicos
 *Descripción de los recursos externos que generan una dependencia para la reutilización de la herramienta digital (librerías, frameworks, acceso a bases de datos y licencias de cada recurso). Es una buena práctica describir las últimas versiones en las que ha sido probada la herramienta digital.*
