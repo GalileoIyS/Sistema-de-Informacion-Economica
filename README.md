@@ -50,7 +50,7 @@ Este módulo permite:
 
 Para una descripción completa de lo que es capaz el sistema puede visitar el [servicio Sielocal.com](http://www.sielocal.com/) en donde está implantado. El siguiente video muestra una descripción general de su funcionamiento.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/k4tg07G3_aI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+[![Canal Youtube de Sielocal.com](https://img.youtube.com/vi/k4tg07G3_aI/0.jpg)](https://www.youtube.com/watch?v=k4tg07G3_aI)
 
 También puede visitar el canal de [Youttube de Sielocal.com](https://www.youtube.com/user/SIELOCAL/videos) en donde podrá visualizar más videos descriptivos de la plataforma.
 
