@@ -1,16 +1,28 @@
 ## Sistema de Información Económica
 ---
-Se trata de crear una plataforma web que facilitará la remisión de datos e información económica de administraciones públicas de cualquier país mediante la utilización de indicadores básicos publicados o a partir de la creación de otros más complejos y su compartición y su utilización por un motor de Business Intelligence. Al mismo tiempo, permite publicar información de forma fácil y rápida para permitir encontrar y analizar información económica utilizando múltiples modos de visualización, desde gráficos hasta mapas interactivos por parte de usuarios.
 
-Ponemos a disposición de la comunicad Open Source una plataforma web con licencia de software libre, que puede ejecutarse independientemente de la arquitectura software del servidor subyacente (Windows, Linux, Mac Apple etc.) capaz de importar y posteriormente representar, cualquier conjunto de datos mediante una serie de gráficos y mapas interactivos en varios contextos.
+El **Sistema de Información Económica** se presenta como una plataforma dirigida a mejorar la capacidad de gestión y operativa de las administraciones públicas que requieren la remisión de información económica (y de otra índole) de forma periódica y/o regulada, o la publicación de información para la implantación de prácticas de buen gobierno y  gobierno abierto. 
 
-Galileo propone la utilización de esta potente herramienta en el contexto de la información pública y de gobierno abierto, para fomentar la transparencia y la participación ciudadana de diferentes países. 
+Nuestro Sistema de Información Económica es una plataforma que resuelve el problema de la remisión de información entre entidades, automatiza la captura de fuentes de información de diversos tipos, dispone de capacidad analítica y business intelligence para la generación de informes y la agregación de indicadores y fuentes de datos para su uso y la creación de nuevos indicadores, pone a disposición una potente plataforma para la publicación, visualización y la generación de informes, y para la remisión, y su automatización, de formularios de todo tipo de información.
 
-Nuestra idea es trabajar para compartir una plataforma inicial, la fue concebida para dar soporte a diversos contextos y se encuentra actualmente en uso en el [servicio de información DropKeys](http://www.dropkeys.com); y extenderla para dotarla de mecanismos más extensos aplicados al contexto de información económica y financiera en sus dimensiones de importación de datos, módulo analítico, así como en la plataforma web de colaboración y los módulos de visualización. El código que se presenta es la plataforma inicial a partir de la cual construir el producto final.
+Nuestra plataforma ha sido desarrollada contando con la experiencia de más de 30 años en el sector de las administraciones públicas de Latinoamérica y España.
+
+### Nuestra propuesta
+
+Galileo propone crear una plataforma web que facilitará la remisión de datos e información económica de administraciones públicas de cualquier país mediante la utilización de indicadores básicos publicados o a partir de la creación de otros más complejos y su compartición y su utilización por un motor de Business Intelligence. Esta plantaforma permite también al mismo tiempo publicar información de forma fácil y rápida para permitir encontrar y analizar información económica utilizando múltiples modos de visualización, desde gráficos hasta mapas interactivos por parte de usuarios.
+
+Galileo pone a disposición de la comunidad Open Source un potente módulo analítico com pieza central de la futura plataforma integrada, para su utilización y evolución en el contexto de la información pública y de gobierno abierto, para fomentar la transparencia y la participación ciudadana de diferentes países. 
+
+Por tanto, como punto de partida, para trabajar en nuestra idea compartimos la plataforma inicial de anlítica, la fue concebida para dar soporte a diversos contextos y se encuentra actualmente en uso en el [servicio de información DropKeys](http://www.dropkeys.com); y extenderla para dotarla de mecanismos más extensos aplicados al contexto de información económica y financiera en sus dimensiones de importación de datos, módulo analítico, así como en la plataforma web de colaboración y los módulos de visualización. El código que se presenta es la plataforma inicial a partir de la cual construir la plataforma final, que además contará con los siguientes módulos:
+
+ * Importación de múltiples fuentes de datos
+ * Módulo Analítico
+ * Plataforma Web de Uso, Publicación, Visualización, Remisión y Administración
+
 
 ### Guía de usuario
 
-El sistema, permite inicialmente: 
+El módulo analítico permite inicialmente: 
  * **Importar** fuentes de datos de varios tipos para crear indicadores en el sistema.
  * **Definir** e incluir indicadores en una librería propia de indicadores, y en el caso de que no existan, poder crear indicadores desde cero, o crealos a partir de la combinación de los existentes.
  * **Compartir** los indicadores con la comunidad y encontrar y trabajar  con otras personas interesadas en los mismos campos de actuación, para crear conocimiento juntos.
