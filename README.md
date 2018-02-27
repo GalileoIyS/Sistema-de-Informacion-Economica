@@ -100,3 +100,6 @@ Galileo mantiene su foco en:
  > la **implantación de Procesos de Formación y Capacitación** en las Administraciones Públicas para favorecer la autogestión descentralización
 
 Galileo dispone de productos y servicios que abarcan todo el espectro de necesidades de administraciones públicas en sistemas de gestión municipal, económica y contable, gestión de población y territorial. Durante estos años, Galileo ha dedicado gran parte de sus beneficios a I+D+i con el fin de lograr una mayor evolución en sus productos que y ampliar la satisfacción de sus clientes, logrando ser nombrada **Pyme Innovadora** según la **Dirección General de Innovación y Competitividad, Ministerio de Economía y Competitividad**
+
+Puede leer más información de nuestras [Empresas Colaboradoras y Referencias de Clientes](https://github.com/GalileoIyS/ecoanalytics/blob/master/Referencias.md).
+
