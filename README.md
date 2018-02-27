@@ -85,6 +85,18 @@ Este software ha sido desarrollado gracias a la colaboración de expertos en Ges
 
 ## Sobre Galileo Ingeniera y Servicios 
 ---
-Galileo Ingeniera y Servicios es una empresa con más de 25 años de experiencia en el sector de tecnología y consultora económica para la administración pública...
 
-(Link)
+**Galileo Ingeniería y Servicios S.L.** es una empresa que lleva más de 30 años desarrollando su actividad en el campo de las Tecnologías de la Información y Comunicaciones (TIC) con una presencia destacada en Canarias, en la Península y enLatinoamérica.Desde 2016, Galileo está integrada en el Grupo Maggioli, grupo líder en innovación para administraciones públicas desde hace más de 100 años en Italia, que le aporta una mayor proyección de sus productos y experiencia a nivel internacional.
+
+ > en Galileo trabajamos para acompañar y ayudar en la mejora de las administraciones públicas gracias su tecnologías y servicios
+
+
+Galileo mantiene su foco en:
+
+ > la **modernización de los Procesos de Gestión** de las Administraciones Públicas
+
+ > el **diseño, desarrollo e implantación de Sistemas de Gestión** para las Administraciones Públicas
+
+ > la **implantación de Procesos de Formación y Capacitación** en las Administraciones Públicas para favorecer la autogestión descentralización
+
+Galileo dispone de productos y servicios que abarcan todo el espectro de necesidades de administraciones públicas en sistemas de gestión municipal, económica y contable, gestión de población y territorial. Durante estos años, Galileo ha dedicado gran parte de sus beneficios a I+D+i con el fin de lograr una mayor evolución en sus productos que y ampliar la satisfacción de sus clientes, logrando ser nombrada **Pyme Innovadora** según la **Dirección General de Innovación y Competitividad, Ministerio de Economía y Competitividad**
