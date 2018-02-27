@@ -26,6 +26,15 @@ Por tanto, como punto de partida, para trabajar en nuestra idea compartimos la p
  * Módulo Analítico
  * Plataforma Web de Uso, Publicación, Visualización, Remisión y Administración
 
+Como conclusión se podrá disponer de una plataforma capaz de publicar información compleja cruzando, como por ejemplo, a partir de fuentes de datos económicos e información georefrenciada, para llegar a publicar informes complejos como el [Mapa de Infraestructuras](https://www.gobiernodecanarias.org/hacienda/unifica/Transparencia/Mapa/Index) que contiene la información de la Encuesta de Infraestructura y Equipamientos Locales (EIEL) en España cuya finalidad es, según establece el Real Decreto 835/2003, de 27 de junio por el que se regula la cooperación económica del Estado a las inversiones de las entidades locales, "conocer la situación de las infraestructuras y equipamientos de competencia municipal, formando un inventario de ámbito nacional, de carácter censal, con información precisa y sistematizada de los municipios con población inferior a 50.000 habitantes".
+
+![Mapa de Infraestructuras generado a partir de la Encuesta de Infraestructura y Equipamientos Locales (EIEL) ](https://github.com/GalileoIyS/ecoanalytics/blob/master/Mapa-GobCan.orgUNIFICA.png "Ejemplo de Automatización de Publicación de Información Económica compleja")
+
+
+Por otro lado, se muestra un ejemplo de la Automatización de formularios de remisión de información y del portal de gestión asociado. 
+
+![Automatización de Remisión de Información](https://github.com/GalileoIyS/ecoanalytics/blob/master/SistemaInformacionEconomica-AutomatizacionRemisionInformacionPublica.png "Ejemplo de Automatización de Remisión de Información")
+
 
 ### Guía de usuario
 
