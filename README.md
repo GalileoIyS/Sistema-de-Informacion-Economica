@@ -3,7 +3,7 @@
 
 El **Sistema de Información Económica** se presenta como una plataforma dirigida a mejorar la capacidad de gestión y operativa de las administraciones públicas que requieren la remisión de información económica (y de otra índole) de forma periódica y/o regulada, o la publicación de información para la implantación de prácticas de buen gobierno y  gobierno abierto. 
 
-Nuestro Sistema de Información Económica es una plataforma que resuelve el problema de la remisión de información entre entidade, y además, nos ayuda a presentar la información de manera simplificada e interactiva, para que cualquier persona la pueda entender y sacar sus conclusiones, gracias a:
+Nuestro Sistema de Información Económica es una plataforma que resuelve el problema de la remisión de información entre entidades, y además, nos ayuda a presentar la información de manera simplificada e interactiva, para que cualquier persona la pueda entender y sacar sus conclusiones, gracias a:
 * automatizar la captura de fuentes de información de diversos tipos (incluidas las fuentes de datos catastrales e información georeferenciada), 
 * de que dispone de capacidad analítica y business intelligence para combinar diversas fuentes de datos y obtener indicadores económicos capaces de evaluar distintas entidades territoriales, 
  * permite la generación de informes y la agregación de indicadores y fuentes de datos para su uso y la creación de nuevos indicadores más complejos, 
