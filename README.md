@@ -1,23 +1,24 @@
 ## Sistema de Información Económica
 ---
 
-El **Sistema de Información Económica** se presenta como una plataforma dirigida a mejorar la capacidad de gestión y operativa de las administraciones públicas que requieren la remisión de información económica (y de otra índole) de forma periódica y/o regulada, o la publicación de información para la implantación de prácticas de buen gobierno y  gobierno abierto. 
+El **Sistema de Información Económica** es una plataforma dirigida a mejorar la capacidad de gestión y operativa de las administraciones públicas que requieren la remisión de información económica (y de otra índole) con otras entidades. Este permite el envío, el análisis y la publicación de información de forma periódica y/o regulada, apoyando las prácticas de buen gobierno y gobierno abierto.
 
-Nuestro Sistema de Información Económica es una plataforma que resuelve el problema de la remisión de información entre entidades, y además, nos ayuda a presentar la información de manera simplificada e interactiva, para que cualquier persona la pueda entender y sacar sus conclusiones, gracias a:
-* automatizar la captura de fuentes de información de diversos tipos (incluidas las fuentes de datos catastrales e información georeferenciada), 
-* de que dispone de capacidad analítica y business intelligence para combinar diversas fuentes de datos y obtener indicadores económicos capaces de evaluar distintas entidades territoriales, 
- * permite la generación de informes y la agregación de indicadores y fuentes de datos para su uso y la creación de nuevos indicadores más complejos, 
- * dispone de una potente plataforma para la publicación, visualización y la generación de informes, 
- * permite la remisión, y su automatización, de formularios de todo tipo de información, 
- 
-Nuestra plataforma ha sido desarrollada contando con la experiencia de más de 30 años en el sector de las administraciones públicas de Latinoamérica y España.
+Mejora la capacidad de gestión y operativa entre administraciones públicas. Permite remitir información, analizar y diseñar indicadores para una apoyar en la gestión económica y fomentar la transparencia y comunicación de las entidades públicas. 
 
+* Automatiza la captura de fuentes de información de diversos tipos (incluidas las fuentes de datos catastrales e información georeferenciada), 
+* Dispone de capacidad analítica y business intelligence para combinar diversas fuentes de datos y obtener indicadores económicos capaces de evaluar distintas entidades territoriales, 
+* permite la generación de informes y la agregación de indicadores y fuentes de datos para su uso y la creación de nuevos indicadores más complejos, 
+* dispone de una potente plataforma para la publicación, visualización y la generación de informes, 
+* permite la remisión, y su automatización, de formularios de todo tipo de información, 
+---
 
-### Nuestra propuesta
+El respositorio contiene el módilo de análisis, el cual fue concebida para dar soporte a diversos contextos y se encuentra actualmente en uso en el [servicio de información DropKeys](http://www.dropkeys.com). Galileo pone a disposición de la comunidad Open Source el módulo analítico como pieza central de la plataforma. Estamos en proceso de extenderla para que se comunique con módulos más extensos aplicados al contexto de información económica y financiera. 
 
-Galileo propone crear una plataforma web que facilitará la remisión de datos e información económica de administraciones públicas de cualquier país mediante la utilización de indicadores básicos publicados o a partir de la creación de otros más complejos y su compartición y su utilización por un motor de Business Intelligence. Esta plantaforma permite también al mismo tiempo publicar información de forma fácil y rápida para permitir encontrar y analizar información económica utilizando múltiples modos de visualización, desde gráficos hasta mapas interactivos por parte de usuarios.
+### Visión
 
-Inicialmente, Galileo pone a disposición de la comunidad Open Source un potente módulo analítico com pieza central de la futura plataforma integrada, para su utilización y evolución en el contexto de la información pública y de gobierno abierto, para fomentar la transparencia y la participación ciudadana de diferentes países. Estamos actualmente trabajando en el desarrollo de la plataforma de visualización de datos como proyecto interno que será liberado bajo licenciamiento open source, en la que se plasme el conocimiento y la experiencia del sistema [Sielocal.com](http://www.sielocal.com/). 
+La plataforma web se podrá configurar para facilitar la remisión de datos e información económica de administraciones públicas de cualquier país. Mediante la utilización de indicadores básicos publicados, o a partir de la creación de otros más complejos, permitirá publicar información de forma fácil y rápida. Finalmente, la herramienta permite publicar y analizar información económica a través de los múltiples modos de visualización (gráficos, mapas interactivos...).
+
+Inicialmente, Galileo pone a disposición de la comunidad Open Source un potente módulo analítico como pieza central de la futura plataforma integrada, para su utilización y evolución en el contexto de la información pública y de gobierno abierto, para fomentar la transparencia y la participación ciudadana de diferentes países. Estamos actualmente trabajando en el desarrollo de la plataforma de visualización de datos como proyecto interno que será liberado bajo licenciamiento open source, en la que se plasme el conocimiento y la experiencia del sistema [Sielocal.com](http://www.sielocal.com/). 
 
 Por tanto, como punto de partida, para trabajar en nuestra idea compartimos la plataforma inicial de anlítica, la fue concebida para dar soporte a diversos contextos y se encuentra actualmente en uso en el [servicio de información DropKeys](http://www.dropkeys.com); y extenderla para dotarla de mecanismos más extensos aplicados al contexto de información económica y financiera en sus dimensiones de importación de datos, módulo analítico, así como en la plataforma web de colaboración y los módulos de visualización. 
 
@@ -32,12 +33,9 @@ Como conclusión se podrá disponer de una plataforma capaz de publicar informac
 
 ![Mapa de Infraestructuras generado a partir de la Encuesta de Infraestructura y Equipamientos Locales (EIEL) ](https://github.com/GalileoIyS/ecoanalytics/blob/master/Mapa-GobCan.orgUNIFICA.png "Ejemplo de Automatización de Publicación de Información Económica compleja")
 
-
 Por otro lado, se muestra un ejemplo de la Automatización de formularios de remisión de información y del portal de gestión asociado. 
 
 ![Automatización de Remisión de Información](https://github.com/GalileoIyS/ecoanalytics/blob/master/SistemaInformacionEconomica-AutomatizacionRemisionInformacionPublica.png "Ejemplo de Automatización de Remisión de Información")
-
-
 
 ### Guía de usuario
 
@@ -67,8 +65,6 @@ Si desea obtener más información puede acceder directamente a la siguiente dir
 
 Tambien se proporciona un [manual de usuario](https://github.com/GalileoIyS/ecoanalytics/blob/master/Manual%20de%20usuario.pdf) completo en formato PDF.
 
-
-
 ### Guía de instalación
 ---
 
@@ -86,8 +82,6 @@ Tambien se proporciona un [manual de usuario](https://github.com/GalileoIyS/ecoa
     6. Modificar los parámetros de conexión a la base de datos establecidos en el fichero de configuración del proyecto localizado en el web.config del proyecto web. Si la base de datos se encuentra en otro servidor, asegúrese de que es visible y tiene los permisos necesarios para acceder.
     
     7. Ejecutar y probar que todo funciona correctamente.
-
-
 
 #### Dependencias y requisitos técnicos
 *Descripción de los recursos externos que generan una dependencia para la reutilización de la herramienta digital (librerías, frameworks, acceso a bases de datos y licencias de cada recurso). Es una buena práctica describir las últimas versiones en las que ha sido probada la herramienta digital.*
