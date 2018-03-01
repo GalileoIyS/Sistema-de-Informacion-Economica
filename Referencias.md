@@ -2,17 +2,6 @@
 Entre los anteriormente mencionados, se encuentran los siguientes:
 
 ## Clientes:
- * 	Gobierno de España
- * 	Gobierno de Canarias (varias Consejerías y Agencias)
- * 	Audiencia de Cuentas de Canarias
- * 	Cabildo de Gran Canaria, 
- * 	Cabildo de Tenerife
- * 	Cartográfica de Canarias (Grafcan)
- * 	Ayuntamientos Españoles (Canarias, Castilla y La Mancha, Madrid). 
- * 	Comunidad Autónoma de Madrid.
- * 	Junta de Castilla y León. 
- * 	Ministerio de Agricultura - Tragsatec
- * 	Diputación de Cádiz. 
  *  Federación Colombiana de Municipios.
  * 	Entidades provinciales de Argentina. 
  * 	Intendencias departamentales de Uruguay. 
@@ -24,6 +13,17 @@ Entre los anteriormente mencionados, se encuentran los siguientes:
  * 	Agencia Urbana de Agadir (Marruecos)
  * 	Belize Tourism Board (Belize)
  * 	INTUR (Nicaragua)
+ * 	Gobierno de España
+ * 	Gobierno de Canarias (varias Consejerías y Agencias)
+ * 	Audiencia de Cuentas de Canarias
+ * 	Cabildo de Gran Canaria, 
+ * 	Cabildo de Tenerife
+ * 	Cartográfica de Canarias (Grafcan)
+ * 	Ayuntamientos Españoles (Canarias, Castilla y La Mancha, Madrid). 
+ * 	Comunidad Autónoma de Madrid.
+ * 	Junta de Castilla y León. 
+ * 	Ministerio de Agricultura - Tragsatec
+ * 	Diputación de Cádiz. 
  * 	Instituto de Astrofísica de Canarias. 
 
  ## Colaborares y Partners:
