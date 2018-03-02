@@ -27,13 +27,14 @@ Galileo pone a disposición de la comunidad Open Source el módulo analítico co
 
 ![Mapa de Infraestructuras generado a partir de la Encuesta de Infraestructura y Equipamientos Locales (EIEL)](https://github.com/GalileoIyS/Sistema-de-Informacion-Economica/blob/master/Mapa%20UNIFICA.png "Ejemplo de Automatización de Publicación de Información Económica compleja")
 
-Por otro lado, se muestra un ejemplo de la Automatización de formularios de remisión de información y del portal de gestión asociado. 
+Ejemplo de la Automatización de formularios de remisión de información: 
 
 ![Automatización de Remisión de Información](https://github.com/GalileoIyS/Sistema-de-Informacion-Economica/blob/master/Creacion%20indicadores.png "Ejemplo de Automatización de Remisión de Información")
 
 ### Guía de usuario
+Ver el [manual de usuario](https://github.com/GalileoIyS/Sistema-de-Informacion-Economica/blob/master/Manual%20de%20usuario.pdf) completo en formato PDF.
 
-#### Modulo de importación, análisis y visualización de información 
+#### Modulo de importación, análisis y visualización de información
 Este módulo permite:
  * Transparencia: Utilice nuestro Portal de Transparencia para publicar de forma rápida y sencilla toda aquella información que desee compartir con sus ciudadanos.
  * Periodismo de Datos: Acceda de forma gratuita a nuestra base de datos de indicadores y compruebe cual es la situación actual de la Administración Pública en solo un click de ratón.
@@ -47,15 +48,7 @@ También puede visitar el canal de [Youttube de Sielocal.com](https://www.youtub
 
 
 #### Módulo Analítico
-El módulo analítico permite inicialmente: 
- * **Importar** fuentes de datos de varios tipos para crear indicadores en el sistema.
- * **Definir** e incluir indicadores en una librería propia de indicadores, y en el caso de que no existan, poder crear indicadores desde cero, o crealos a partir de la combinación de los existentes.
- * **Compartir** los indicadores con la comunidad y encontrar y trabajar  con otras personas interesadas en los mismos campos de actuación, para crear conocimiento juntos.
- * **Analizar y Visualizar** gracias a la capacidad que aporta la plataforma en materia de Business Intelligence, generar facilmente cuadros de mando a partir de los indicadores, utilizando potentes gráficos y fórmulas y permitiendo el análisis en periodos de tiempo según nuestras necesidades.
 
-La herramienta permite a cualquier usuario no registrado, acceder a todo el repositorio de indicadores como si de un portal de Big Data se tratase. No obstante, para poder interactuar con los datos, definir sus propios cuadros de mando y representar correlaciones comparativas es necesario estar registrado. De esta manera, el usuario puede añadir nuevos indicadores a su cuenta, hacerlos públicos para que otros usuarios contribuyan con sus datos o simplemente contribuir sobre algún otro indicador público del repositorio.
-
-Si desea obtener más información puede acceder directamente a la siguiente dirección http://www.dropkeys.com/howitworks.aspx en donde verá una demo de la plataforma.
 
 Tambien se proporciona un [manual de usuario](https://github.com/GalileoIyS/ecoanalytics/blob/master/Manual%20de%20usuario.pdf) completo en formato PDF.
 
