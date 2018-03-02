@@ -19,9 +19,11 @@ Este respositorio contiene el Módulo Analítico, el cual fue concebido para dar
 
 Actualmente los módulos se encuentran desarrollados e implementados en diferentes sistemas:
 
-* **Módulo de Remisión de información**: Implementado en el sistema de remisión de información del Gobierno de Canarias. (Ver resultados en el [Mapa de Información de Canarias]( https://www.gobiernodecanarias.org/hacienda/unifica/Transparencia/Mapa/Index) 
-* **Módulo de Analítico**: Utilizado en el servicio de información [Dropkeys](http://www.dropkeys.com)
-* **Módulo de análisis y visualización**: Implantado en la [Federación Colombiana de Municipios](http://colombia.sielocal.com/), Gobierno de Canarias o en el [Sistema de Información Económica Local](sielocal.com) (con indicadores económicos de **más de 10 pases de LATAM**).
+* **Módulo de Remisión de información**: Implementado en el sistema de remisión de información del Gobierno de Canarias. (Ver resultados en el [Mapa de Información de Canarias]( https://www.gobiernodecanarias.org/hacienda/unifica/Transparencia/Mapa/Index)) *Más información en [esta presentación](https://prezi.com/ojoqxrp2ygdv/unifica-captura/?utm_campaign=share&utm_medium=copy)
+
+* **Módulo de Analítico**: Utilizado en el servicio de información [Dropkeys](http://www.dropkeys.com).
+
+* **Módulo de análisis y visualización**: Implantado en la [Federación Colombiana de Municipios](http://colombia.sielocal.com/), Gobierno de Canarias o en el [Sistema de Información Económica Local](sielocal.com) (con indicadores económicos de **más de 10 pases de LATAM**). *Más información en [este video](https://www.youtube.com/watch?v=k4tg07G3_aI)
 
 Galileo pone a disposición de la comunidad Open Source el módulo analítico como pieza central del Sistema de Información Económica. Esperamos que su utilización y evolución en el contexto de la información pública y de gobierno abierto, con el fin de fomentar la transparencia y la participación ciudadana.
 
@@ -34,29 +36,11 @@ Ejemplo de la Automatización de formularios de remisión de información:
 ### Guía de usuario
 Ver el [manual de usuario](https://github.com/GalileoIyS/Sistema-de-Informacion-Economica/blob/master/Manual%20de%20usuario.pdf) completo en formato PDF.
 
-#### Modulo de importación, análisis y visualización de información
-Este módulo permite:
- * Transparencia: Utilice nuestro Portal de Transparencia para publicar de forma rápida y sencilla toda aquella información que desee compartir con sus ciudadanos.
- * Periodismo de Datos: Acceda de forma gratuita a nuestra base de datos de indicadores y compruebe cual es la situación actual de la Administración Pública en solo un click de ratón.
- * Gráficas interactivas: Somos expertos en construir gráficos dinámicos utilizando fuentes de datos complejas que ayuden a comprender y analizar dicha información.
-
-Para una descripción completa de lo que es capaz el sistema puede visitar el [servicio Sielocal.com](http://www.sielocal.com/) en donde está implantado. El siguiente video muestra una descripción general de su funcionamiento.
-
-[![Canal Youtube de Sielocal.com](https://img.youtube.com/vi/k4tg07G3_aI/0.jpg)](https://www.youtube.com/watch?v=k4tg07G3_aI)
-
-También puede visitar el canal de [Youttube de Sielocal.com](https://www.youtube.com/user/SIELOCAL/videos) en donde podrá visualizar más videos descriptivos de la plataforma.
-
-
-#### Módulo Analítico
-
-
-Tambien se proporciona un [manual de usuario](https://github.com/GalileoIyS/ecoanalytics/blob/master/Manual%20de%20usuario.pdf) completo en formato PDF.
-
 ### Guía de instalación
 ---
 
 #### Módulo Analítico
-    1. Descargar e instalar la versión Community del Visual Studio (2015 o superior) desde la siguiente dirección: https://www.visualstudio.com/es/vs/community/
+    1. Instalar la versión Community del Visual Studio (2015 o superior): https://www.visualstudio.com/es/vs/community/
     
     2. Instalar la extensión de Visual Studio (GitHub Extension for Visual Studio) para acceder a este repositorio GitHub desde el entorno de programación.
     
@@ -89,7 +73,7 @@ Este software ha sido desarrollado gracias a la colaboración de expertos en Ges
 
 ### Licencia 
 ---
-[Apache v2](https://www.apache.org/licenses/LICENSE-2.0)
+[Apache v2](https://github.com/GalileoIyS/Sistema-de-Informacion-Economica/blob/master/LICENSE)
 
 ## Sobre Galileo Ingeniera y Servicios 
 ---
