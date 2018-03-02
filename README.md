@@ -10,26 +10,20 @@ El sistema está compuesto por los siguientes módulos:
 
 ---
 
-Este respositorio contiene el Módulo Analítico, el cual fue concebido para dar soporte a diversos contextos; y se encuentra actualmente en uso en el [servicio de información DropKeys](http://www.dropkeys.com). Galileo pone a disposición de la comunidad Open Source el módulo analítico como pieza central de la plataforma. Estamos en proceso de extenderla para que se comunique con módulos más extensos aplicados al contexto de información económica y financiera.
-
-![Mapa de Infraestructuras generado a partir de la Encuesta de Infraestructura y Equipamientos Locales (EIEL) ](https://github.com/GalileoIyS/Sistema-de-Informacion-Economica/blob/master/Dropkeys.png)
+Este respositorio contiene el Módulo Analítico, el cual fue concebido para dar soporte a diversos contextos. Se encuentra actualmente en uso en el [servicio de información DropKeys](http://www.dropkeys.com). Este módulo permite: 
+ * **Importar** fuentes de datos de varios tipos para crear indicadores en el sistema.
+ * **Definir** e incluir indicadores en una librería propia de indicadores, y en el caso de que no existan, poder crear indicadores desde cero, o crealos a partir de la combinación de los existentes.
+ * **Analizar y Visualizar** indicadores para generar cuadros de mando con indicadores personalizados.
 
 ### Visión
 
-La plataforma web se podrá configurar para facilitar la remisión de datos e información económica de administraciones públicas de cualquier país. Mediante la utilización de indicadores básicos publicados, o a partir de la creación de otros más complejos, permitirá publicar información de forma fácil y rápida. Finalmente, la herramienta permite publicar y analizar información económica a través de los múltiples modos de visualización (gráficos, mapas interactivos...).
+Actualmente los módulos se encuentran desarrollados e implementados en diferentes sistemas:
 
-Inicialmente, Galileo pone a disposición de la comunidad Open Source un potente módulo analítico como pieza central de la futura plataforma integrada, para su utilización y evolución en el contexto de la información pública y de gobierno abierto, para fomentar la transparencia y la participación ciudadana de diferentes países. Estamos actualmente trabajando en el desarrollo de la plataforma de visualización de datos como proyecto interno que será liberado bajo licenciamiento open source, en la que se plasme el conocimiento y la experiencia del sistema [Sielocal.com](http://www.sielocal.com/). 
+* **Módulo de Remisión de información**: Implementado en el sistema de remisión de información del Gobierno de Canarias. (Ver resultados en el [Mapa de Información de Canarias]( https://www.gobiernodecanarias.org/hacienda/unifica/Transparencia/Mapa/Index) 
+* **Módulo de Analítico**: Utilizado en el servicio de información [Dropkeys](http://www.dropkeys.com)
+* **Módulo de análisis y visualización**: Implantado en la [Federación Colombiana de Municipios](http://colombia.sielocal.com/), Gobierno de Canarias o en el [Sistema de Información Económica Local](sielocal.com) (con indicadores económicos de **más de 10 pases de LATAM**).
 
-Por tanto, como punto de partida, para trabajar en nuestra idea compartimos la plataforma inicial de anlítica, la fue concebida para dar soporte a diversos contextos y se encuentra actualmente en uso en el [servicio de información DropKeys](http://www.dropkeys.com); y extenderla para dotarla de mecanismos más extensos aplicados al contexto de información económica y financiera en sus dimensiones de importación de datos, módulo analítico, así como en la plataforma web de colaboración y los módulos de visualización. 
-
-El código que se presenta es la plataforma inicial a partir de la cual construir la plataforma final, que contará con los siguientes módulos:
-
- * Importación de múltiples fuentes de datos
- * Módulo Analítico
- * Plataforma Web de Uso, Publicación, Visualización, Remisión y Administración
-
-
-Como conclusión se podrá disponer de una plataforma capaz de publicar información compleja cruzando, como por ejemplo, a partir de fuentes de datos económicos e información georefrenciada, para llegar a publicar informes complejos como el [Mapa de Infraestructuras](https://www.gobiernodecanarias.org/hacienda/unifica/Transparencia/Mapa/Index) que contiene la información de la Encuesta de Infraestructura y Equipamientos Locales (EIEL) en España cuya finalidad es, según establece el Real Decreto 835/2003, de 27 de junio por el que se regula la cooperación económica del Estado a las inversiones de las entidades locales, "conocer la situación de las infraestructuras y equipamientos de competencia municipal, formando un inventario de ámbito nacional, de carácter censal, con información precisa y sistematizada de los municipios con población inferior a 50.000 habitantes".
+Galileo pone a disposición de la comunidad Open Source el módulo analítico como pieza central del Sistema de Información Económica. Esperamos que su utilización y evolución en el contexto de la información pública y de gobierno abierto, con el fin de fomentar la transparencia y la participación ciudadana.
 
 ![Mapa de Infraestructuras generado a partir de la Encuesta de Infraestructura y Equipamientos Locales (EIEL)](https://github.com/GalileoIyS/Sistema-de-Informacion-Economica/blob/master/Mapa%20UNIFICA.png "Ejemplo de Automatización de Publicación de Información Económica compleja")
 
