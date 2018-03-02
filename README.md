@@ -10,7 +10,9 @@ El sistema está compuesto por los siguientes módulos:
 
 ---
 
-Este respositorio contiene el Módulo Analítico, el cual fue concebido para dar soporte a diversos contextos; y se encuentra actualmente en uso en el [servicio de información DropKeys](http://www.dropkeys.com). Galileo pone a disposición de la comunidad Open Source el módulo analítico como pieza central de la plataforma. Estamos en proceso de extenderla para que se comunique con módulos más extensos aplicados al contexto de información económica y financiera. 
+Este respositorio contiene el Módulo Analítico, el cual fue concebido para dar soporte a diversos contextos; y se encuentra actualmente en uso en el [servicio de información DropKeys](http://www.dropkeys.com). Galileo pone a disposición de la comunidad Open Source el módulo analítico como pieza central de la plataforma. Estamos en proceso de extenderla para que se comunique con módulos más extensos aplicados al contexto de información económica y financiera.
+
+![Mapa de Infraestructuras generado a partir de la Encuesta de Infraestructura y Equipamientos Locales (EIEL) ](https://github.com/GalileoIyS/Sistema-de-Informacion-Economica/blob/master/Dropkeys.png)
 
 ### Visión
 
@@ -29,7 +31,7 @@ El código que se presenta es la plataforma inicial a partir de la cual construi
 
 Como conclusión se podrá disponer de una plataforma capaz de publicar información compleja cruzando, como por ejemplo, a partir de fuentes de datos económicos e información georefrenciada, para llegar a publicar informes complejos como el [Mapa de Infraestructuras](https://www.gobiernodecanarias.org/hacienda/unifica/Transparencia/Mapa/Index) que contiene la información de la Encuesta de Infraestructura y Equipamientos Locales (EIEL) en España cuya finalidad es, según establece el Real Decreto 835/2003, de 27 de junio por el que se regula la cooperación económica del Estado a las inversiones de las entidades locales, "conocer la situación de las infraestructuras y equipamientos de competencia municipal, formando un inventario de ámbito nacional, de carácter censal, con información precisa y sistematizada de los municipios con población inferior a 50.000 habitantes".
 
-![Mapa de Infraestructuras generado a partir de la Encuesta de Infraestructura y Equipamientos Locales (EIEL) ](https://github.com/GalileoIyS/ecoanalytics/blob/master/Mapa-GobCan.orgUNIFICA.png "Ejemplo de Automatización de Publicación de Información Económica compleja")
+![Mapa de Infraestructuras generado a partir de la Encuesta de Infraestructura y Equipamientos Locales (EIEL)](https://github.com/GalileoIyS/ecoanalytics/blob/master/Mapa-GobCan.orgUNIFICA.png "Ejemplo de Automatización de Publicación de Información Económica compleja")
 
 Por otro lado, se muestra un ejemplo de la Automatización de formularios de remisión de información y del portal de gestión asociado. 
 
