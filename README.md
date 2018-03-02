@@ -1,18 +1,16 @@
 ## Sistema de Información Económica
 ---
 
-El **Sistema de Información Económica** es una plataforma dirigida a mejorar la capacidad de gestión y operativa de las administraciones públicas que requieren la remisión de información económica (y de otra índole) con otras entidades. Este permite el envío, el análisis y la publicación de información de forma periódica y/o regulada, apoyando las prácticas de buen gobierno y gobierno abierto.
+El **Sistema de Información Económica** es una plataforma dirigida a mejorar la capacidad de gestión y operativa de las administraciones públicas. Permite remitir de información, analizar y diseñar indicadores para una apoyar en la gestión económica y fomentar la transparencia y comunicación de las entidades públicas. 
 
-Mejora la capacidad de gestión y operativa entre administraciones públicas. Permite remitir información, analizar y diseñar indicadores para una apoyar en la gestión económica y fomentar la transparencia y comunicación de las entidades públicas. 
+El sistema está compuesto por los siguientes módulos:
+* **Módulo de Remisión de información**: Automatiza la captura de fuentes de información (como la remisión de información entre entidades territoriales y supra-territoriales), 
+* **Módulo de Analítico**: Permite la manipulación de datos y creación de indicadores para crear indicadores económicos y evaluar distintas entidades territoriales, 
+* **Módulo de análisis y visualización**: Permite la generación de informes y la agregación de información para la creación de nuevos indicadores más complejos, 
 
-* Automatiza la captura de fuentes de información de diversos tipos (incluidas las fuentes de datos catastrales e información georeferenciada), 
-* Dispone de capacidad analítica y business intelligence para combinar diversas fuentes de datos y obtener indicadores económicos capaces de evaluar distintas entidades territoriales, 
-* permite la generación de informes y la agregación de indicadores y fuentes de datos para su uso y la creación de nuevos indicadores más complejos, 
-* dispone de una potente plataforma para la publicación, visualización y la generación de informes, 
-* permite la remisión, y su automatización, de formularios de todo tipo de información, 
 ---
 
-El respositorio contiene el módilo de análisis, el cual fue concebida para dar soporte a diversos contextos y se encuentra actualmente en uso en el [servicio de información DropKeys](http://www.dropkeys.com). Galileo pone a disposición de la comunidad Open Source el módulo analítico como pieza central de la plataforma. Estamos en proceso de extenderla para que se comunique con módulos más extensos aplicados al contexto de información económica y financiera. 
+Este respositorio contiene el Módulo Analítico, el cual fue concebido para dar soporte a diversos contextos; y se encuentra actualmente en uso en el [servicio de información DropKeys](http://www.dropkeys.com). Galileo pone a disposición de la comunidad Open Source el módulo analítico como pieza central de la plataforma. Estamos en proceso de extenderla para que se comunique con módulos más extensos aplicados al contexto de información económica y financiera. 
 
 ### Visión
 
