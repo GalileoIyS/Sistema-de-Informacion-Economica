@@ -1,46 +1,39 @@
 ## Sistema de Información Económica
 ---
 
-El **Sistema de Información Económica** es una plataforma de gestión económica para administraciones públicas que permite analizar, crear indicadores, evaluar y transparentar los datos tributarios de una entidad. Esta herramienta aumenta la capacidad de gestión y eficiencia de las administraciones, a la vez que se genera confianza y transparencia hacia el ciudadano. (Ver ejemplo del [Ayuntamiento de Madrid](http://madrid.sielocal.com/gastos/comparativa/areas))
+El **Sistema de Información Económica** es una plataforma de gestión económica para administraciones públicas que permite analizar, crear indicadores, evaluar y transparentar los datos tributarios de una entidad. Esta herramienta aumenta la capacidad de gestión y eficiencia de las administraciones, a la vez que se genera confianza y transparencia hacia el ciudadano. (Ver ejemplo del [Ayuntamiento de Madrid](http://madrid.sielocal.com/indicadores))
 
 El sistema está compuesto por los siguientes módulos:
 * **Módulo de carga y tratamiento de datos**: Permite cargar información (a partir de un excel con formato predeterminado) y el diseño de indicadores económicos. (ver ejemplo de informes en [Sielocal.com](http://www.sielocal.com/Informes.aspx) 
 * **Módulo de visualización**: Permite generar visualizaciones y cuadros de mando con indicadores personalizados. 
-
-
-Este sistema, implementado de forma extensa en una administración supra-territorial y con un estándar de datos tributarios asociados, podría convertirse en un sistema de remisión de información y coordinación entre distintas administraciones públicas como el ya implantado en el Gobierno de Canarias. (Sistema [UNIFICA](https://prezi.com/ojoqxrp2ygdv/unifica-captura/?utm_campaign=share&utm_medium=copy))
-
-Ejemplos de esta herramienta están actualmente implantados como el [Punto Inteligente de Información Económica](http://madrid.sielocal.com/gastos/comparativa/areas) y en la [plataforma DropKeys](http://www.dropkeys.com).
 ---
 
 ### Visión
 
-El objetivo de este proyecto es disponer de una plataforma capaz de colectar información en un formato estandarizado para analizar datos y crear informes económicos y de infraestructuras. 
+Este sistema, implementado de forma extensa en una administración supra-territorial y con un estándar de datos tributarios asociados, podría convertirse en un sistema de remisión de información y coordinación entre distintas administraciones públicas, como el ya implantado en el Gobierno de Canarias. (Ver sistema [UNIFICA](https://prezi.com/ojoqxrp2ygdv/unifica-captura/?utm_campaign=share&utm_medium=copy) o el [Mapa de información económico-financiera y de infraestructuras](https://www.gobiernodecanarias.org/hacienda/unifica/Transparencia/Mapa/Index) del Gobierno de Canarias)
 
     El Real Decreto 835/2003, de 27 de junio regula la cooperación económica del Estado Español a las inversiones de las entidades locales. Permite conocer la situación de las infraestructuras y equipamientos de competencia municipal, formando un inventario de ámbito nacional, de carácter censal, con información precisa y sistematizada de los municipios con población inferior a 50.000 habitantes. 
 
-[Unifica](https://prezi.com/ojoqxrp2ygdv/unifica-captura/?utm_campaign=share&utm_medium=copy) es el sistema de remisión de información del gobierno de Canarias. Ha permitido este [Mapa de infraestructuras]().
+Actualmente, sistemas basados en este motor son:
 
-La visión de este proyecto es poder disponer de una plataforma capaz de publicar información compleja cruzando información de fuentes diferentes como datos económicos o información georefrenciada, para publicar indicadores elaborados como los informes de [Sielocal.com](http://www.sielocal.com/Informes.aspx) y visualizarlos en un Mapa de Infraestructuras que contiene la información de la Encuesta de Infraestructura y Equipamientos Locales (EIEL) en España cuya finalidad es, según establece el Real Decreto 835/2003, de 27 de junio por el que se regula la cooperación económica del Estado a las inversiones de las entidades locales, "conocer la situación de las infraestructuras y equipamientos de competencia municipal, formando un inventario de ámbito nacional, de carácter censal, con información precisa y sistematizada de los municipios con población inferior a 50.000 habitantes"
+* **[Federación Colombiana de Municipios](http://colombia.sielocal.com/)** 
 
-Actualmente los módulos se encuentran desarrollados e implementados en diferentes sistemas:
+* **[Punto Inteligente de Transparencia Económica](http://www.sielocal.com/producto/2323/Punto-inteligente-de-transparencia)**: 
 
-* **Módulo de Remisión de información**: Implementado en el sistema de remisión de información del Gobierno de Canarias. (Ver resultados en el [Mapa de Información de Canarias]( https://www.gobiernodecanarias.org/hacienda/unifica/Transparencia/Mapa/Index)) *Más información en [esta presentación](https://prezi.com/ojoqxrp2ygdv/unifica-captura/?utm_campaign=share&utm_medium=copy)
+* **[Dropkeys](http://www.dropkeys.com)** (Software como servicio SaaS) 
 
-* **Módulo de Analítico**: Utilizado en el servicio de información [Dropkeys](http://www.dropkeys.com).
+* **[Sistema de Información Económica Local](sielocal.com)** Contiene indicadores económicos de **más de 10 pases de LATAM**.
+indicadores económicos de **más de 10 pases de LATAM**). *Más información en [este video](https://www.youtube.com/watch?v=k4tg07G3_aI)
 
-* **Módulo de análisis y visualización**: Implantado en la [Federación Colombiana de Municipios](http://colombia.sielocal.com/), Gobierno de Canarias o en el [Sistema de Información Económica Local](sielocal.com) (con indicadores económicos de **más de 10 pases de LATAM**). *Más información en [este video](https://www.youtube.com/watch?v=k4tg07G3_aI)
-
-Galileo pone a disposición de la comunidad Open Source el módulo analítico como pieza central del Sistema de Información Económica. Esperamos que su utilización y evolución en el contexto de la información pública y de gobierno abierto, con el fin de fomentar la transparencia y la participación ciudadana.
-
-![Mapa de Infraestructuras generado a partir de la Encuesta de Infraestructura y Equipamientos Locales (EIEL)](https://github.com/GalileoIyS/Sistema-de-Informacion-Economica/blob/master/Mapa%20UNIFICA.png "Ejemplo de Automatización de Publicación de Información Económica compleja")
+Galileo pone a disposición de la comunidad Open Source el módulo analítico como pieza central del Sistema de Información Económica. Esperamos que se contine su utilización y evolución en el contexto de la información pública y de gobierno abierto, con el fin de fomentar la transparencia y la participación ciudadana.
 
 Ejemplo de la Automatización de formularios de remisión de información: 
 
-![Automatización de Remisión de Información](https://github.com/GalileoIyS/Sistema-de-Informacion-Economica/blob/master/Creacion%20indicadores.png "Ejemplo de Automatización de Remisión de Información")
-
 ### Guía de usuario
 Ver el [manual de usuario](https://github.com/GalileoIyS/Sistema-de-Informacion-Economica/blob/master/Manual%20de%20usuario.pdf) completo en formato PDF.
+
+![Automatización de Remisión de Información](https://github.com/GalileoIyS/Sistema-de-Informacion-Economica/blob/master/Creacion%20indicadores.png "Ejemplo de Automatización de Remisión de Información")
+
 
 ### Guía de instalación
 ---
