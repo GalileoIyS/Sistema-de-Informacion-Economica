@@ -22,8 +22,7 @@ Algunos de los sistemas de Galileo IyS basados en este motor son:
 
 * **[Dropkeys](http://www.dropkeys.com)** (Software como servicio SaaS) 
 
-* **[Sistema de Información Económica Local](sielocal.com)** Contiene indicadores económicos de **más de 10 pases de LATAM**.
-indicadores económicos de **más de 10 pases de LATAM**). *Más información en [este video](https://www.youtube.com/watch?v=k4tg07G3_aI)
+* **[Sistema de Información Económica Local](sielocal.com)** Contiene indicadores económicos de **más de 10 pases de LATAM**. *Más información en [este video](https://www.youtube.com/watch?v=k4tg07G3_aI).
 
 Galileo pone a disposición de la comunidad Open Source el módulo analítico como pieza central del Sistema de Información Económica. Esperamos que se contine su utilización y evolución en el contexto de la información pública y de gobierno abierto, con el fin de fomentar la transparencia y la participación ciudadana.
 
