@@ -1,21 +1,27 @@
 ## Sistema de Información Económica
 ---
 
-El **Sistema de Información Económica** es una plataforma dirigida a mejorar la capacidad de gestión y operativa de las administraciones públicas. Permite remitir de información, analizar y diseñar indicadores para una apoyar en la gestión económica y fomentar la transparencia y comunicación de las entidades públicas. 
+El **Sistema de Información Económica** es una plataforma de gestión económica para administraciones públicas que permite analizar, crear indicadores, evaluar y transparentar los datos tributarios de una entidad. Esta herramienta aumenta la capacidad de gestión y eficiencia de las administraciones, a la vez que se genera confianza y transparencia hacia el ciudadano. (Ver ejemplo del [Ayuntamiento de Madrid](http://madrid.sielocal.com/gastos/comparativa/areas))
 
 El sistema está compuesto por los siguientes módulos:
-* **Módulo de Remisión de información**: Automatiza la captura de fuentes de información (como la remisión de información entre entidades territoriales y supra-territoriales), 
-* **Módulo de Analítico**: Permite la manipulación de datos y creación de indicadores para crear indicadores económicos y evaluar distintas entidades territoriales, 
-* **Módulo de análisis y visualización**: Permite la generación de informes y la agregación de información para la creación de nuevos indicadores más complejos, 
+* **Módulo de carga y tratamiento de datos**: Permite cargar información (a partir de un excel con formato predeterminado) y el diseño de indicadores económicos. (ver ejemplo de informes en [Sielocal.com](http://www.sielocal.com/Informes.aspx) 
+* **Módulo de visualización**: Permite generar visualizaciones y cuadros de mando con indicadores personalizados. 
 
+
+Este sistema, implementado de forma extensa en una administración supra-territorial y con un estándar de datos tributarios asociados, podría convertirse en un sistema de remisión de información y coordinación entre distintas administraciones públicas como el ya implantado en el Gobierno de Canarias. (Sistema [UNIFICA](https://prezi.com/ojoqxrp2ygdv/unifica-captura/?utm_campaign=share&utm_medium=copy))
+
+Ejemplos de esta herramienta están actualmente implantados como el [Punto Inteligente de Información Económica](http://madrid.sielocal.com/gastos/comparativa/areas) y en la [plataforma DropKeys](http://www.dropkeys.com).
 ---
 
-Este respositorio contiene el Módulo Analítico, el cual fue concebido para dar soporte a diversos contextos. Se encuentra actualmente en uso en el [servicio de información DropKeys](http://www.dropkeys.com). Este módulo permite: 
- * **Importar** fuentes de datos de varios tipos para crear indicadores en el sistema.
- * **Definir** e incluir indicadores en una librería propia de indicadores, y en el caso de que no existan, poder crear indicadores desde cero, o crealos a partir de la combinación de los existentes.
- * **Analizar y Visualizar** indicadores para generar cuadros de mando con indicadores personalizados.
-
 ### Visión
+
+El objetivo de este proyecto es disponer de una plataforma capaz de colectar información en un formato estandarizado para analizar datos y crear informes económicos y de infraestructuras. 
+
+    El Real Decreto 835/2003, de 27 de junio regula la cooperación económica del Estado Español a las inversiones de las entidades locales. Permite conocer la situación de las infraestructuras y equipamientos de competencia municipal, formando un inventario de ámbito nacional, de carácter censal, con información precisa y sistematizada de los municipios con población inferior a 50.000 habitantes. 
+
+[Unifica](https://prezi.com/ojoqxrp2ygdv/unifica-captura/?utm_campaign=share&utm_medium=copy) es el sistema de remisión de información del gobierno de Canarias. Ha permitido este [Mapa de infraestructuras]().
+
+La visión de este proyecto es poder disponer de una plataforma capaz de publicar información compleja cruzando información de fuentes diferentes como datos económicos o información georefrenciada, para publicar indicadores elaborados como los informes de [Sielocal.com](http://www.sielocal.com/Informes.aspx) y visualizarlos en un Mapa de Infraestructuras que contiene la información de la Encuesta de Infraestructura y Equipamientos Locales (EIEL) en España cuya finalidad es, según establece el Real Decreto 835/2003, de 27 de junio por el que se regula la cooperación económica del Estado a las inversiones de las entidades locales, "conocer la situación de las infraestructuras y equipamientos de competencia municipal, formando un inventario de ámbito nacional, de carácter censal, con información precisa y sistematizada de los municipios con población inferior a 50.000 habitantes"
 
 Actualmente los módulos se encuentran desarrollados e implementados en diferentes sistemas:
 
