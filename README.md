@@ -12,7 +12,10 @@ El sistema está compuesto por los siguientes módulos:
 
 Este sistema, implementado de forma extensa en una administración supra-territorial y con un estándar de datos tributarios asociados, podría convertirse en un sistema de remisión de información y coordinación entre distintas administraciones públicas, como el ya implantado en el Gobierno de Canarias. (Ver sistema [UNIFICA](https://prezi.com/ojoqxrp2ygdv/unifica-captura/?utm_campaign=share&utm_medium=copy) o el [Mapa de información económico-financiera y de infraestructuras](https://www.gobiernodecanarias.org/hacienda/unifica/Transparencia/Mapa/Index) del Gobierno de Canarias)
 
-    El Real Decreto 835/2003, de 27 de junio regula la cooperación económica del Estado Español a las inversiones de las entidades locales. Permite conocer la situación de las infraestructuras y equipamientos de competencia municipal, formando un inventario de ámbito nacional, de carácter censal, con información precisa y sistematizada de los municipios con población inferior a 50.000 habitantes. 
+    > El Real Decreto 835/2003, de 27 de junio regula la cooperación económica del Estado Español a las inversiones de las   
+    > entidades locales. Permite conocer la situación de las infraestructuras y equipamientos de competencia municipal,
+    > formando un inventario de ámbito nacional, de carácter censal, con información precisa y sistematizada de los municipios
+    > con población inferior a 50.000 habitantes. 
 
 Actualmente, sistemas basados en este motor son:
 
@@ -34,6 +37,8 @@ Ver el [manual de usuario](https://github.com/GalileoIyS/Sistema-de-Informacion-
 
 ![Automatización de Remisión de Información](https://github.com/GalileoIyS/Sistema-de-Informacion-Economica/blob/master/Creacion%20indicadores.png "Ejemplo de Automatización de Remisión de Información")
 
+![Automatización de Remisión de Información](https://github.com/GalileoIyS/Sistema-de-Informacion-Economica/blob/master/Punto%20de%20Transparencia.png "Punto Inteligente de Transparencia Economica")
+
 
 ### Guía de instalación
 ---
@@ -53,13 +58,6 @@ Ver el [manual de usuario](https://github.com/GalileoIyS/Sistema-de-Informacion-
     
     7. Ejecutar y probar que todo funciona correctamente.
 
-#### Dependencias y requisitos técnicos
-*Descripción de los recursos externos que generan una dependencia para la reutilización de la herramienta digital (librerías, frameworks, acceso a bases de datos y licencias de cada recurso). Es una buena práctica describir las últimas versiones en las que ha sido probada la herramienta digital.*
-
-    Puedes usar este estilo de letra diferenciar los comandos de instalación.
-
-**Consulta más información sobre nosotros en: http://www.galileoiys.es/**
-
 ### Colaboradores
 ---
 Este software ha sido desarrollado gracias a la colaboración de expertos en Gestión Catastral y Representación de Mapas y Motores Geográficos durante más de 30 años por los técnicos de Galileo y numerosos clientes.
@@ -70,7 +68,6 @@ Este software ha sido desarrollado gracias a la colaboración de expertos en Ges
 
 ## Sobre Galileo Ingeniera y Servicios 
 ---
-
 
 **Galileo Ingeniería y Servicios S.L.** es una empresa tecnológica perteneciente al grupo Maggioli que tiene 30 años de experiencia en consultoría económica y tecnológica para administraciones públicas, especializándose en el desarrollo y modernización de procesos de gestión.
 
