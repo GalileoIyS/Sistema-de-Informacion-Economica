@@ -29,7 +29,7 @@ Galileo pone a disposición de la comunidad Open Source el módulo analítico co
 Ejemplo de la Automatización de formularios de remisión de información: 
 
 ### Guía de usuario
-Ver el [manual de usuario](https://github.com/GalileoIyS/Sistema-de-Informacion-Economica/blob/master/Manual%20de%20usuario.pdf) completo en formato PDF.
+Ver el [manual de usuario](https://github.com/GalileoIyS/Sistema-de-Informacion-Economica/blob/master/Manual%20de%20usuario.pdf) completo en formato PDF de Dropkeys.
 
 ![Automatización de Remisión de Información](https://github.com/GalileoIyS/Sistema-de-Informacion-Economica/blob/master/Creacion%20indicadores.png "Ejemplo de Automatización de Remisión de Información")
 
