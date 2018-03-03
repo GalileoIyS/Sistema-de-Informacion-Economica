@@ -12,12 +12,12 @@ El sistema está compuesto por los siguientes módulos:
 
 Este sistema, implementado de forma extensa en una administración supra-territorial y con un estándar de datos tributarios asociados, podría convertirse en un sistema de remisión de información y coordinación entre distintas administraciones públicas, como el ya implantado en el Gobierno de Canarias. (Ver sistema [UNIFICA](https://prezi.com/ojoqxrp2ygdv/unifica-captura/?utm_campaign=share&utm_medium=copy) o el [Mapa de información económico-financiera y de infraestructuras](https://www.gobiernodecanarias.org/hacienda/unifica/Transparencia/Mapa/Index) del Gobierno de Canarias)
 
-    > El Real Decreto 835/2003, de 27 de junio regula la cooperación económica del Estado Español a las inversiones de las   
-    > entidades locales. Permite conocer la situación de las infraestructuras y equipamientos de competencia municipal,
-    > formando un inventario de ámbito nacional, de carácter censal, con información precisa y sistematizada de los municipios
-    > con población inferior a 50.000 habitantes. 
+ > El Real Decreto 835/2003, de 27 de junio regula la cooperación económica del Estado Español a las inversiones de las   
+ > entidades locales. Permite conocer la situación de las infraestructuras y equipamientos de competencia municipal,
+ > formando un inventario de ámbito nacional, de carácter censal, con información precisa y sistematizada de los municipios
+ > con población inferior a 50.000 habitantes. 
 
-Actualmente, sistemas basados en este motor son:
+Algunos de los sistemas de Galileo IyS basados en este motor son:
 
 * **[Federación Colombiana de Municipios](http://colombia.sielocal.com/)** 
 
