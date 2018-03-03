@@ -39,7 +39,6 @@ Ver el [manual de usuario](https://github.com/GalileoIyS/Sistema-de-Informacion-
 ### Guía de instalación
 ---
 
-#### Módulo Analítico
     1. Instalar la versión Community del Visual Studio (2015 o superior): https://www.visualstudio.com/es/vs/community/
     
     2. Instalar la extensión de Visual Studio (GitHub Extension for Visual Studio) para acceder a este repositorio GitHub desde el entorno de programación.
