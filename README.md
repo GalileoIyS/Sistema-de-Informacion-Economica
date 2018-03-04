@@ -8,7 +8,7 @@ Con la ayuda de un estándar de datos tributarios asociados, podría convertirse
 
 El sistema está compuesto por los siguientes módulos:
 * **Módulo de carga y tratamiento de datos**: Permite cargar información (a partir de un excel con formato predeterminado, entre otros formatos) y el diseño de indicadores económicos (como por ejemplo los generados y disponibles en los informes ofrecidos por [Sielocal.com](http://www.sielocal.com/Informes.aspx) 
-* **Módulo de visualización**: Permite generar visualizaciones y cuadros de mando con indicadores personalizados permitiendo la publicacin y el análisis de la informacin. 
+* **Módulo de visualización**: Permite generar visualizaciones y cuadros de mando con indicadores personalizados permitiendo la publicación y el análisis de la información.
 ---
 
 ### Visión
