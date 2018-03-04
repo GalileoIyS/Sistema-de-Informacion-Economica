@@ -1,11 +1,14 @@
 ## Sistema de Información Económica
 ---
+El **Sistema de Información Económica** es una plataforma de gestión económica para administraciones públicas que permite importar, analizar, crear indicadores, visualizar, evaluar y ofrecer transparencia con los datos tributarios de una entidad, a partir de datos económicos de múltiples fuentes.
 
-El **Sistema de Información Económica** es una plataforma de gestión económica para administraciones públicas que permite analizar, crear indicadores, evaluar y transparentar los datos tributarios de una entidad. Esta herramienta aumenta la capacidad de gestión y eficiencia de las administraciones, a la vez que se genera confianza y transparencia hacia el ciudadano. (Ver ejemplo del [Ayuntamiento de Madrid - España](http://madrid.sielocal.com/indicadores))
+Esta herramienta aumenta la capacidad de gestión y eficiencia de las administraciones, a la vez que se genera confianza y transparencia hacia el ciudadano. (Ver ejemplo del [Ayuntamiento de Madrid - España](http://madrid.sielocal.com/indicadores))
+
+Con la ayuda de un estándar de datos tributarios asociados, podría convertirse en un sistema de remisión de información y coordinación entre distintas administraciones públicas.
 
 El sistema está compuesto por los siguientes módulos:
 * **Módulo de carga y tratamiento de datos**: Permite cargar información (a partir de un excel con formato predeterminado, entre otros formatos) y el diseño de indicadores económicos (como por ejemplo los generados y disponibles en los informes ofrecidos por [Sielocal.com](http://www.sielocal.com/Informes.aspx) 
-* **Módulo de visualización**: Permite generar visualizaciones y cuadros de mando con indicadores personalizados. 
+* **Módulo de visualización**: Permite generar visualizaciones y cuadros de mando con indicadores personalizados permitiendo la publicacin y el análisis de la informacin. 
 ---
 
 ### Visión
