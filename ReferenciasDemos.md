@@ -58,12 +58,12 @@ Video-tutoriales uso del Portal:
 ## REPORTES AD-HOC empleando Herramientas Business Intelligence & SIELOCAL
 Cuadro de Mandos Ayuntamientos ESPAÑA (artículo)
  * 	http://elpais.sielocal.com/
-Reportes de Delegaciones MEXICO:
- * 	http://elpais.com/elpais/2015/06/05/media/1433521749_135727.html
-Cuadro de Mandos Comunidades Autónomas ESPAÑA
- * 	http://elpais.com/elpais/2015/05/12/media/1431452440_395334.html
-Cuadro de Mandos Municipios MEXICO:
- * 	http://elpais.com/elpais/2015/06/03/media/1433325854_993080.html
-Cuadro de Mandos Estados MEXICO:
- * 	http://elpais.com/elpais/2015/06/03/media/1433325700_885965.html  
+Consulta los egresos de las delegaciones de México DF:
+ * 	http://elpais.sielocal.com/mexico_df.aspx
+Las comunidades autónomas españolas, en cifras:
+ * 	http://elpais.sielocal.com/comunidades.aspx
+Así están las finanzas de los municipios mexicanos:
+ * 	http://elpais.sielocal.com/Mexico_municipios.aspx
+Así están las finanzas de los Estados mexicanos:
+ * 	http://elpais.sielocal.com/Mexico_estados.aspx 
 
